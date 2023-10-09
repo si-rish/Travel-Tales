@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
+import React from 'react'
 import "./Navbar.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight} from '@fortawesome/free-solid-svg-icons'
 
 
 function Navbar() {
@@ -10,11 +9,11 @@ function Navbar() {
       
         <h2 className='nav-brand'>Travel Tales</h2>
 
-        <a className='nav-link'>Home</a>
-        <a className='nav-link'>Destinations</a>
-        <a className='nav-link'>Blogs</a>
-        <a className='nav-link'>About</a>
-        <a className='nav-link'>Contact</a>
+        <Link className='nav-link' to="/" >Home</Link>
+        <Link className='nav-link' to="/destination">Destinations</Link>
+        <Link className='nav-link' to="/blogs">Blogs</Link>
+        <Link className='nav-link' to="/about">About</Link>
+        <Link className='nav-link' to="/contact">Contact</Link>
 
         <button className='login-btn registeration'>Login</button>
         <button className='signup-btn registeration'>Sign up</button>

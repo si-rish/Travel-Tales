@@ -5,9 +5,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  background: url('../public/bg.png') ;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
+
   
 }
