@@ -1,9 +1,10 @@
 import "./Destination.css"
-import Navbar from './components/Navbar/Navbar';
+import Navbar from '../../components/Navbar/Navbar'
 
-function Destination ()  {
+export default function Destination()  {
     return(
         <div>
+            <Navbar/>
             <h1>Destination</h1>
         </div>
     )
