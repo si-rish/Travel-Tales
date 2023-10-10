@@ -1,0 +1,16 @@
+.About-Container
+{
+   margin: 4rem 6rem;
+   text-align: start;
+
+}
+.About-Container h1
+{
+padding-bottom: 1rem;
+}
+
+.About-Container p
+{
+padding-bottom: 2rem;
+}
+
