@@ -26,6 +26,21 @@ export default function Footer() {
                         </a>
                     </div>
                     <div className="sb_footer-links-div">
+                        <h4>Resources</h4>
+                        <a href=" ">
+                            <p>Employer</p>
+                        </a>
+                        <a href=" ">
+                            <p>About</p>
+                        </a>
+                        <a href=" ">
+                            <p>individual</p>
+                        </a>
+                        <a href=" ">
+                            <p>Help</p>
+                        </a>
+                    </div>
+                    <div className="sb_footer-links-div">
                         <h4>Company</h4>
                         <a href="/RTC">
                             <p>About Us</p>
@@ -64,8 +79,10 @@ export default function Footer() {
                             <p><img src={insta} alt="" ></img></p>
                         </div>
                     </div>
+                    
                 </div>
             </div>
+            <hr></hr>
         </div>
     )
 }
