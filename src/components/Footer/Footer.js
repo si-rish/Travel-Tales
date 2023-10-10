@@ -1,6 +1,9 @@
 import React from 'react';
 import "./Footer.css"
-
+import fb from "./../Image/facebook.png";
+import twitter from "./../Image/twitter.png";
+import linkedin from "./../Image/linkedin.png";
+import insta from "./../Image/instagram.png";
 export default function Footer() {
 
     return (
@@ -20,21 +23,6 @@ export default function Footer() {
                         </a>
                         <a href=" ">
                             <p>Contact Us</p>
-                        </a>
-                    </div>
-                    <div className="sb_footer-links-div">
-                        <h4>Resources</h4>
-                        <a href=" ">
-                            <p>Employer</p>
-                        </a>
-                        <a href=" ">
-                            <p>About</p>
-                        </a>
-                        <a href=" ">
-                            <p>individual</p>
-                        </a>
-                        <a href=" ">
-                            <p>Help</p>
                         </a>
                     </div>
                     <div className="sb_footer-links-div">
@@ -66,7 +54,15 @@ export default function Footer() {
                         <a href=" ">
                             <p>Share Your Travel Experience</p>
                         </a>
-
+                    </div>
+                    <div className="sb_footer-links-div">
+                        <h4>Follow us</h4>
+                        <div className="socialmedia">
+                            <p><img src={fb} alt="" ></img></p>
+                            <p><img src={twitter} alt="" ></img></p>
+                            <p><img src={linkedin} alt="" ></img></p>
+                            <p><img src={insta} alt="" ></img></p>
+                        </div>
                     </div>
                 </div>
             </div>

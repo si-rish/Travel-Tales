@@ -44,3 +44,10 @@ a{
     margin: 8px 0;
     cursor:pointer;
 }
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+}
+.socialmedia img{
+    width:80%
+}
