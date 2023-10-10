@@ -1,15 +1,29 @@
 import React from 'react'
 import "./Home.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight} from '@fortawesome/free-solid-svg-icons'
+
 import Navbar from '../../components/Navbar/Navbar'
+import HeroSection from '../../components/HeroSection/HeroSection'
+import TopNationCard from '../../components/TopNationCard/TopNationCard'
+
 
 function Home() {
   return (
     <div>
-        <Navbar/>
-        <h1 className='app-title'>Explore Travel Tales<br/>Real Adventure & Travels</h1>
-        <button className='explore-btn'>Explore <FontAwesomeIcon icon={faArrowRight} className='arrow' /></button>
+      <Navbar />
+      <HeroSection />
+      <TopNationCard />
+      <hr/>
+      <p className='description'>Let us plan you a
+        perfect India Holiday</p>
+      <p className='caption'>Custom-Crafted Tour Packages for Unforgettable Holiday Experiences in India.
+
+
+
+
+
+
+
+      </p>
 
     </div>
   )
