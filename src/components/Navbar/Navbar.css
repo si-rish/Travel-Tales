@@ -1,6 +1,7 @@
 .navbar{
     background-color: #1e293b;
     opacity: 80%;
+    color:white;
 }
 
 .nav-brand{
@@ -12,11 +13,12 @@
 }
 
 .nav-link{
-    color: white;
+    color: rgb(244, 243, 243);
     display: inline-block;
     margin: 0 10px;
     text-decoration: none;
     cursor: pointer;
+  
   
 }
 
