@@ -1,13 +1,18 @@
+
+
 import "./Login.css"
-import Navbar from '../../components/Navbar/Navbar'
-
-
-export default function Login()  {
-    return(
-        <div>
-            <Navbar/>
-            <h1>Login form</h1>
+const colors={
+    primary:"#060606",
+    background:"#E0E0E0",
+    disabled:"#D9D9D9"
+}
+const Login= () => {
+    return (
+        <div className="w-full min-h-screen flex items-start">
+        <div className='relative w-1/2 h-full flex flex-col'>
+      
+          </div>
         </div>
     )
-    
 }
+export default Login;
