@@ -1,5 +1,5 @@
 body{
-    background: url(./../../../public/assets/bg2.jpg) ;
+    background-image: url(./../../../public/assets/bg2.jpg) ;
    
     background-blend-mode: saturation;
     background-repeat: no-repeat;
