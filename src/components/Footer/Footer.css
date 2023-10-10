@@ -1,0 +1,11 @@
+.section_padding{
+    padding: 16px 16px;
+ 
+ }
+ .footer{
+     background-color: #2d2322;
+ }
+ .sb_footer{
+     display: flex;
+     flex-direction: column;
+ }
