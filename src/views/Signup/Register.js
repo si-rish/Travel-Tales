@@ -180,3 +180,9 @@ const Register = () => {
                         </span>
                     </p>
                 </section>
+                  )}
+                  </>
+              )
+          }
+          
+          export default Register 
