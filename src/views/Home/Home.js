@@ -11,25 +11,22 @@ function Home() {
   return (
     <div>
       <Navbar />
-      <HeroSection />
-      <TopNationCard />
-      <hr/>
+      <div className="header-main-img">
+        <HeroSection />
+      </div>
+        <TopNationCard />
+      <hr />
+      <div>
       <p className='description'>Let us plan you a
         perfect India Holiday</p>
-      <p className='caption'>Custom-Crafted Tour Packages for Unforgettable Holiday Experiences in India.
-
-
-
-
-
-
-
-      </p>
-      <Footer/>
+      <p className='caption'>Custom-Crafted Tour Packages for Unforgettable Holiday Experiences in India.</p>
+      </div>
+     
+      <Footer />
 
     </div>
-    
-    
+
+
   )
 }
 

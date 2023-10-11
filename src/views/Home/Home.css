@@ -1,3 +1,12 @@
+.header-main-img{
+    background-image: url("../../../public/assets/bg2.jpg");
+    background-size: cover;
+    width: 100vw; 
+    height: 100vh;
+    
+    
+}
+
 .description{
 text-align: center;
 font-size: 2rem;
