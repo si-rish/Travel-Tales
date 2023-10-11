@@ -7,6 +7,7 @@ import HeroSection from '../../components/HeroSection/HeroSection'
 import TopNationCard from '../../components/TopNationCard/TopNationCard'
 import OfferSection from '../../components/OfferSection/OfferSection'
 import GridComponent from '../../components/GridComponent/GridComponent'
+import TabComponent from '../../components/TabComponent/TabComponent'
 
 
 
@@ -29,6 +30,7 @@ function Home() {
 
       <GridComponent/>
       <OfferSection/>
+      <TabComponent/>
      
      
       <Footer />
