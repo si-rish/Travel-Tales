@@ -13,8 +13,18 @@ export default function Blogs()  {
                <div className="division3">
                  <p>hello</p>
                </div>
+            
+            
+                    
+                       
+            
+                </div>
+                 
+               
+               
 
-              </div>
+            
+        
 
 
 
@@ -24,6 +34,7 @@ export default function Blogs()  {
                </div>
             </div>
            <Footer />
+    
         </div>
     )
     
