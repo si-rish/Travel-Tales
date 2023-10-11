@@ -100,3 +100,17 @@ const Register = () => {
                     <FontAwesomeIcon icon={faCheck} className={validName ? "valid" : "hide"} />
                     <FontAwesomeIcon icon={faTimes} className={validName || !user ? "hide" : "invalid"} />
                 </label>
+
+                <input
+                            type="text"
+                            id="username"
+                            ref={userRef}
+                            autoComplete="off"
+                            onChange={(e) => setUser(e.target.value)}
+                            value={user}
+                            required
+                            aria-invalid={validName ? "false" : "true"}
+                            aria-describedby="uidnote"
+                            onFocus={() => setUserFocus(true)}
+                            onBlur={() => setUserFocus(false)}
+                        />  
