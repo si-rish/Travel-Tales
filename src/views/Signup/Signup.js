@@ -1,13 +1,17 @@
-import "./Signup.css"
-import Navbar from '../../components/Navbar/Navbar'
+import Register from './Register';
 
 
-export default function Signup()  {
-    return(
-        <div>
-            <Navbar/>
-            <h1>Signup form</h1>
-        </div>
-    )
-    
-}
+import "./Signup.css";
+
+
+function Signup() {
+
+    return (
+      <main className="App">
+        <Register/>
+     
+      </main>
+    );
+  }
+  
+  export default Signup;
