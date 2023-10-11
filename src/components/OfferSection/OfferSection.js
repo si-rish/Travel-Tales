@@ -3,21 +3,21 @@ import "./OfferSection.css"
 
 function OfferSection() {
   return (
-    <div className='user-card'>
+    <div >
+        <h3 className='offer-heading'>Offers</h3>
         <div>
-            <img src=""></img>
-           
+          <div>
+            card1
+          </div>
+          <div>
+            card2
+          </div>
+          <div>
+            card3
+          </div>
         </div>
-        <div>
-        <h3>Offers</h3>
-
-        this is the offer section 
 
          
-        </div>
-
-        
-
     </div>
   )
 }
