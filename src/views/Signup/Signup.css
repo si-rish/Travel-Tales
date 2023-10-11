@@ -39,3 +39,16 @@ section {
   padding: 1rem;
   background-color:rgba(151, 117, 70, 0.4);/* rgba(0, 0, 0, 0.4);*/
 }
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 3;
+  padding-bottom: 1rem;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+a, a:visited {
+  color: #fff;
+}
