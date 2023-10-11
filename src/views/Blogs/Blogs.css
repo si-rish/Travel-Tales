@@ -44,9 +44,22 @@
 .BlogCard{
     height: 200px;
     width: 700px;
-    background-color:darkgray;
+
     border-radius: 8px;
     box-sizing: border-box;
     box-shadow: 2px 2px 3px 3px black;
     color: aqua;
+}
+.blog-name{
+    font-size: 30px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: black;
+    font-style: italic;
+
+
+}
+
+.m-2{
+    margin: 2px;
 }

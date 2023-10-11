@@ -44,9 +44,9 @@ export default function Blogs()  {
                         
                        return(
                         <div className='BlogCard'>
-                            <p className='blog-name'>{Blog.name}</p>
-                            <p className='blog-name'>{Blog.date}</p>
-                            <p className='blog-name'>{Blog.blog}</p>
+                            <p className='blog-name m-2'>🎒{Blog.name}</p>
+                            <p className='blog-date m-2'>📅{Blog.date}</p>
+                            <p className='blog-date m-2'>🖼️{Blog.blog}</p>
                             </div>
                        )
                     })
