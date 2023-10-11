@@ -1,0 +1,30 @@
+.division1{
+    background-color: gray;
+    height: 1500px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.division2{
+    height: 600px;
+    width: 500px;
+    background-color: aliceblue;
+    margin-top: 55px;
+    box-shadow: 3px 3px 2px 1px black;
+    border-radius: 5px;
+}
+.heading1{
+    font-size: 40px;
+    text-align: center;
+    color:aqua;
+    
+}
+
+.heading2{
+    font-size: 25px;
+    font-style:italic;
+    text-align: center;
+    color: black;
+}
