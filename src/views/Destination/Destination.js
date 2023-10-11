@@ -1,6 +1,10 @@
 import "./Destination.css"
 import Navbar from '../../components/Navbar/Navbar'
 import HeroSection from '../../components/HeroSection/HeroSection'
+import Teant from '../../components/Image/Teant.png'
+import Biking from '../../components/Image/Biking.png'
+import Fishing from '../../components/Image/Fishing.png'
+import Caravan from '../../components/Image/Caravan.png'
 import Footer from '../../components/Footer/Footer'
 
 export default function Destination()  {
@@ -74,16 +78,40 @@ export default function Destination()  {
         </div>
         <div className="redio-btn">
             <button className="buton"> ⬅️ </button>
-            <button className="buton"> 1</button>
-            <button className="buton">2</button>
-            <button className="buton">3</button>
-            <button className="buton">4</button>
-            <button className="buton">5</button>
+            <button id="buton"> 01</button>
+            <button className="buton">02</button>
+            <button className="buton">03</button>
+            <button className="buton">04</button>
+            <button className="buton">05</button>
             <button className="buton">➡️</button>
         </div>
-
-            
-
+        <div className="container">
+            <div >
+                <img className="video" src="https://d3nn873nee648n.cloudfront.net/900x600/17212/120-SM754546.jpg" alt="/"/>
+            </div>
+            <div className="card-componant">
+            <div className="card">
+                <img className="logo" src={Teant} alt="/"/>
+                <h2>Tent Camping</h2>
+                <h3>Sit amet consectetur integ tincidunt scelerie nodermen malesuada sceleris massa</h3>
+            </div>
+            <div className="card">
+                <img className="logo" src={Biking} alt="/"/>
+                <h2>Mountain Biking</h2>
+                <h3>Sit amet consectetur integ tincidunt scelerie nodermen malesuada sceleris massa</h3>
+            </div>
+            <div className="card">
+                <img className="logo" src={Fishing} alt="/"/>
+                <h2>Fishing & Boat</h2>
+                <h3>Sit amet consectetur integ tincidunt scelerie nodermen malesuada sceleris massa</h3>
+            </div>
+            <div className="card">
+                <img className="logo" src={Caravan} alt="/"/>
+                <h2>RV Caravan Tent</h2>
+                <h3>Sit amet consectetur integ tincidunt scelerie nodermen malesuada sceleris massa</h3>
+            </div>
+           </div>
+        </div>  
             <Footer />
         </div>
     )

@@ -20,6 +20,7 @@ input{
     width: 250px ;
     margin-left: 10px;
     border-radius: 15px;
+    border-color: antiquewhite;
 }
 .btn{
     height: 50px;
@@ -29,6 +30,7 @@ input{
     margin-left: 580px;
     margin-bottom: 20px;
     background-color: rgb(208, 171, 209);
+    border-color: antiquewhite;
     
 }
 .btn:hover{
@@ -61,15 +63,67 @@ input{
 
 .redio-btn{
     text-align: center;
-    height: 50px;
-    font-size: 20px;
+    width: 450px;
+    height: 40px;
+    font-size: 30px;
     margin-left: 450px;
-    margin-bottom: 20px;
-    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 30px;
     display: flex;
     gap: 40px;
 }
 .buton{
     background-color: beige;
     border-radius: 50%;
+    border-color: aliceblue;
+}
+#buton{
+    background-color: rgb(216, 174, 34);
+    border-radius: 50%;
+    border-color: antiquewhite;
+}
+.buton:hover{
+    background-color: rgba(39, 199, 146, 0.644);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.video{
+    width: 500px;
+    height: 650px;
+    margin-left: 40px;
+    box-shadow: 30px;
+    border-radius: 50% 50% 0px 0px;
+}
+.card-componant{
+    display:grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: auto auto;
+    margin-right: 30px;
+}
+.card{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(205, 216, 212);
+    border-style: solid;
+    border-color: rgb(238, 237, 237);
+    box-shadow: rgb(168, 166, 166);
+}
+.logo{
+    height: 100px;
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+h2{
+    margin-left: 20px;
+}
+h3{
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: rgb(83, 80, 80);
 }
