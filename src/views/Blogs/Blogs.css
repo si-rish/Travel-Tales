@@ -30,21 +30,24 @@
     
 }
 
+.heading3{
+    font-size: 20px;
+    font-style:italic;
+    text-align: center;
+    color: black;
+}
 .heading2{
     font-size: 30px;
     font-style:italic;
     text-align: center;
     color: black;
 }
-.heading2{
-    font-size: 20px;
-    font-style:italic;
-    text-align: center;
-    color: black;
-}
 .division3{
-    height: 50px;
-    width: 400px;
-    background-color:blue;
+    height: 200px;
+    width: 600px;
+    background-color:darkgray;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 3px 3px black;
     color: aqua;
 }
