@@ -18,7 +18,7 @@ export default function Blogs()  {
 
 
                <div className="division4">
-                <h2 className="heading2">Share Your Travel Experience With Us</h2>
+                <h2 className="heading3">Share Your Travel Experience With Us</h2>
 
                </div>
             </div>
