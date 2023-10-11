@@ -44,3 +44,40 @@ a{
     margin: 8px 0;
     cursor:pointer;
 }
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+}
+.socialmedia img{
+    width:80%
+}
+hr{
+    color:White;
+    width:100%;
+
+}
+.sb_footer-below{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:20px;
+    padding-bottom: 50px;
+}
+.sb_footer-copyright p{
+    font-size: 20px;
+    line-height: 15px;
+    color: rgba(255, 255,255);
+    font-weight: 600;
+}
+.sb_footer-below-links{
+    display: flex;
+    flex-direction: row;
+}
+.sb_footer-below-links p{
+    font-size: 16px;
+    line-height:15px;
+    margin-left: 30px;
+    color: white;
+    font-weight: 600;
+    margin-right: 10px;
+}

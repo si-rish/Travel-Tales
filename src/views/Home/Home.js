@@ -4,6 +4,7 @@ import "./Home.css"
 import Navbar from '../../components/Navbar/Navbar'
 import HeroSection from '../../components/HeroSection/HeroSection'
 import TopNationCard from '../../components/TopNationCard/TopNationCard'
+import Footer from "./../../components/Footer/Footer"
 
 
 function Home() {
@@ -24,8 +25,11 @@ function Home() {
 
 
       </p>
+      <Footer/>
 
     </div>
+    
+    
   )
 }
 
