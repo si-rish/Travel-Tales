@@ -51,3 +51,22 @@ const Register = () => {
         if (!v1 || !v2) {
             setErrMsg("Invalid Entry");
             return;
+
+        }
+        try {
+            const response = await axios.post(REGISTER_URL,
+                JSON.stringify({ user, pwd }),
+                {
+                    headers: { 'Content-Type': 'application/json' },
+                    withCredentials: true
+                }
+            );
+            // TODO: remove console.logs before deployment
+            console.log(JSON.stringify(response?.data));
+            //console.log(JSON.stringify(response))
+            setSuccess(true);
+            //clear state and controlled inputs
+            setUser('');
+            setPwd('');
+            setMatchPwd('');
+        } 
