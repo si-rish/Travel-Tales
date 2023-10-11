@@ -9,6 +9,14 @@
 }
 .division2{
     height: 600px;
+    width: 600px;
+    background-color: aliceblue;
+    margin-top: 55px;
+    box-shadow: 3px 3px 2px 1px black;
+    border-radius: 5px;
+}
+.division4{
+    height: 600px;
     width: 500px;
     background-color: aliceblue;
     margin-top: 55px;
@@ -27,4 +35,10 @@
     font-style:italic;
     text-align: center;
     color: black;
+}
+.division3{
+    height: 50px;
+    width: 400px;
+    background-color:blue;
+    color: aqua;
 }
