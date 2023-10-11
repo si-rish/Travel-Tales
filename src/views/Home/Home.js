@@ -5,6 +5,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 import HeroSection from '../../components/HeroSection/HeroSection'
 import TopNationCard from '../../components/TopNationCard/TopNationCard'
+import OfferSection from '../../components/OfferSection/OfferSection'
 
 
 function Home() {
@@ -21,8 +22,11 @@ function Home() {
         perfect India Holiday</p>
       <p className='caption'>Custom-Crafted Tour Packages for Unforgettable Holiday Experiences in India.</p>
       </div>
+
+      <OfferSection/>
      
       <Footer />
+
 
     </div>
 

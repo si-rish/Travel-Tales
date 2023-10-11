@@ -39,12 +39,13 @@
     font-weight: 900;
     font-family: "poppins";
     border-radius: 3rem;
-    color: rgb(240, 173, 48);
-    background-color: whitesmoke;
+    color: whitesmoke;
+    background-color: #2d2322;
 }
 
 
 .book-now:hover{
+    color: rgb(240, 173, 48);
     background-color: black;
     transition: all.3s ease;
 }

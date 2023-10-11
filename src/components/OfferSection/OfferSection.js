@@ -11,8 +11,12 @@ function OfferSection() {
         <div>
         <h3>Offers</h3>
 
+        this is the offer section 
+
          
         </div>
+
+        
 
     </div>
   )
