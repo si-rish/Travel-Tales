@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
+
+
+
+
+
+
 .App {
   display: flex;
   flex-direction: column;
@@ -15,43 +21,54 @@
   
 
 }
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+  
+  
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
   }
+  
+ 
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+section {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color:rgba(151, 117, 70, 0.4);/* rgba(0, 0, 0, 0.4);*/
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-section {
-  width: 100%;
-  max-width: 420px;
-  min-height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 1rem;
-  background-color:rgba(151, 117, 70, 0.4);/* rgba(0, 0, 0, 0.4);*/
-}
 form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  flex-grow: 3;
-  padding-bottom: 1rem;
-  padding-left: 2px;
-  padding-right: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 3;
+    padding-bottom: 1rem;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 a, a:visited {
-  color: #fff;
+    color: #fff;
 }
+
 input[type="text"],
 input[type="password"],
 button,
@@ -75,22 +92,22 @@ button {
 }
 
 .instructions {
-  font-size: 0.75rem;
-  border-radius: 0.5rem;
-  background: #000;
-  color: #fff;
-  padding: 0.25rem;
-  position: relative;
-  bottom: -10px;
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
 }
 
 .instructions > svg {
-  margin-right: 0.25rem;
+    margin-right: 0.25rem;
 }
 
 .offscreen {
-  position: absolute;
-  left: -9999px;
+    position: absolute;
+    left: -9999px;
 }
 
 .hide {
@@ -106,14 +123,15 @@ button {
     color: red;
     margin-left: 0.25rem;
 }
+
 .errmsg {
-  background-color: lightpink;
-  color: firebrick;
-  font-weight: bold;
-  padding: 0.5rem;
-  margin-bottom: 0.5rem;
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .line {
-  display: inline-block;
+    display: inline-block;
 }
