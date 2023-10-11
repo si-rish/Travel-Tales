@@ -11,6 +11,7 @@ import Contact from './views/Contact/Contact'
 import Shop from './views/Shop/Shop';
 import Login from './views/Login/Login';
 import Signup from './views/Signup/Signup';
+import Footer from './components/Footer/Footer'
 
 
 const router = createBrowserRouter([
@@ -47,7 +48,7 @@ const router = createBrowserRouter([
       element: <Login/>
   },
 
- 
+   <Footer />
  
 ])
 
