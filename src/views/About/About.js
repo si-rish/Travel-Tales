@@ -13,9 +13,9 @@ export default function About()  {
     return(
         <div >
             <Navbar/>
-            
+
             <img src={img} className="image-2" />
-            
+
             <div className="About-Container">
              <h1>Our History</h1>
 
@@ -24,7 +24,9 @@ export default function About()  {
                 service and e-commerce solution. Trippy in Pvt.Ltd, is counted for web solutions 
                 and its top ranking business portals. Our invincible exportise has raised our spirit
                 to reach ahead from our client's expectation. commendable success rate of others portals
-                 managed by Trippy is a live paradigm of our work.
+                 managed by Trippy is a live paradigm of our work.Travel dates back to antiquity where 
+                 wealthy Greeks and Romans would travel for leisure to their summer homes and villas in
+                  cities such as Pompeii and Baiae.
             </p>
             
             <h1>Our Mission</h1>
@@ -32,12 +34,17 @@ export default function About()  {
                 Our Mission is to touch the horizon where our capabiities may successfully meet with
                 the requirements of our client's, that too with ultimate transparency and cost-
                 effectiveness..
+                Our Mission is to perform and deliver excellent quality service to our clients.
+                 Providing them unforgettable travel, enjoyable, with guaranteed services that exceed their expectations With this objective,
+                 we aim to earn the reputation as "Your Preferred Travel Agency".
             </p>
 
             <h1>Our Vission</h1>
             <p className="About-Text">
                 To saw the seeds of par-excellence services with customer centric approach and reap the
-                trust of worldwide client's.
+                trust of worldwide client's.<br></br>
+                To create a world, where everyone is encouraged to travel.To ensure that our clients live memorable experiences and 
+                fulfill their dreams and goals through travel.
             </p>
             </div>
            
@@ -61,7 +68,7 @@ export default function About()  {
                 <div className="info">
                 Hello..!!<br></br>
                  I am shanzey Shaikh<br></br>
-                 Parikrama College of Engineering HSBPVTGOI COE,Kashti,
+                  from Parikrama College of Engineering HSBPVTGOI COE,Kashti,
                   Shrigonda, Ahmednagar.
                  
                  
