@@ -84,7 +84,9 @@ export default function Blog()  {
                <div className="division4">
                 <h2 className="heading3">Share Your Travel Experience With Us..</h2>
                 <form>
-                   
+                   <input type='text' placeholder='Name' />
+                   <input type='Date' />
+                   <input type='text' placeholder='Blog' />
 
                         
                 </form>
