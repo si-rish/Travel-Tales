@@ -37,6 +37,41 @@ export default function About()  {
             </p>
             </div>
            
+
+            <h1 className="Our-team">Our Team's</h1>
+            <div className="main-container">
+                <div className="cards">
+                <img src={img1} className="team-member-img"/>
+                <hr></hr>
+                <div className="info">
+                 I am Snehal parate
+                </div>
+            </div>
+
+            <div className="cards">
+                <img src={img1} className="team-member-img"/>
+                <hr></hr>
+                <div className="info">
+                    Hello..!!<br></br>
+                 I am Snehal parate<br></br>
+                 pursuing BCA 3rd yr from<br></br>
+                 from G.H Raisoni University 
+                 
+                </div>
+            </div>
+
+
+           
+
+            <div className="cards">
+                <img src={img1} className="team-member-img"/>
+                <hr></hr>
+                <div className="info">
+                 I am Snehal parate
+                 
+                </div>
+            </div>
+            </div>
             
           
 
