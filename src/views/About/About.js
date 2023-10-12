@@ -6,6 +6,8 @@ import img1 from './about images/img.jpg'
 import image1 from './about images/shanzey.jpg'
 import image2 from './about images/prerna.jpg'
 import image3 from './about images/snehal...jpg'
+import image4 from './about images/jayant.jpg'
+import image6 from './about images/yash.jpg'
 
 export default function About()  {
     return(
@@ -55,9 +57,7 @@ export default function About()  {
                 <hr></hr>
                 <div className="info">
                     Hello..!!<br></br>
-                 I am Snehal parate<br></br>
-                 pursuing BCA 3rd yr from<br></br>
-                 from G.H Raisoni University 
+                 
                  
                 </div>
             </div>
@@ -66,7 +66,10 @@ export default function About()  {
                 <img src={image3} className="team-member-img image img3"/>
                 <hr></hr>
                 <div className="info">
-                 I am Snehal parate
+                Hello..!!<br></br>
+                 I am Snehal parate<br></br>
+                 pursuing BCA 3rd yr from<br></br>
+                 from G.H Raisoni University 
                  
                 </div>
             </div>
@@ -74,21 +77,9 @@ export default function About()  {
             
             <div className="main-container">
                 <div className="cards">
-                <img src={img1} className="team-member-img"/>
+                <img src={image4} className="team-member-img image"/>
                 <hr></hr>
                 <div className="info">
-                 I am Snehal parate
-                </div>
-            </div>
-
-            <div className="cards">
-                <img src={img1} className="team-member-img"/>
-                <hr></hr>
-                <div className="info">
-                    Hello..!!<br></br>
-                 I am Snehal parate<br></br>
-                 pursuing BCA 3rd yr from<br></br>
-                 from G.H Raisoni University 
                  
                 </div>
             </div>
@@ -97,7 +88,16 @@ export default function About()  {
                 <img src={img1} className="team-member-img"/>
                 <hr></hr>
                 <div className="info">
-                 I am Snehal parate
+                
+                 
+                </div>
+            </div>
+
+            <div className="cards">
+                <img src={image6} className="team-member-img image"/>
+                <hr></hr>
+                <div className="info">
+                 
                  
                 </div>
             </div>
