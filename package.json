@@ -16,11 +16,7 @@
     "react-icon": "^1.0.0",
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.16.0",
-<<<<<<< HEAD
-    "react-scripts": "^5.0.1",
-=======
     "react-scripts": "^3.4.4",
->>>>>>> c13099aae5e52ad4a5ff2b44512c0a2143dd0c16
     "web-vitals": "^2.1.4"
   },
   "scripts": {
