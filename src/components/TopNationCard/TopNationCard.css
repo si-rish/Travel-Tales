@@ -10,8 +10,8 @@
 
 .comp-card{
     border-radius: 3rem;
-    background-color: rgba(255, 255, 255, 0.941);
-    margin: 200px 20px;
+    background-color: #F9F9F7;
+    margin: 50px 20px;
     height: 390px;
     padding: 5px;
     text-align: center;
@@ -39,16 +39,17 @@
     font-weight: 900;
     font-family: "poppins";
     border-radius: 3rem;
-    color: rgb(240, 173, 48);
-    background-color: whitesmoke;
+    color: whitesmoke;
+    background-color: #2d2322;
 }
 
 
 .book-now:hover{
+    color: rgb(240, 173, 48);
     background-color: black;
     transition: all.3s ease;
 }
 .comp-card:hover{
-    transform: scale(.98);
+    transform: scale(0.97);
     transition: all ease-in-out .7s;
 }

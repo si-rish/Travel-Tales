@@ -1,13 +1,20 @@
 
 import "./About.css"
 import Navbar from '../../components/Navbar/Navbar'
+import img2 from './about images/img2.webp'
+import img1 from './about images/img.jpg'
 
 
 export default function About()  {
     return(
-        <div className="About-Container">
+        <div >
             <Navbar/>
+            
+            
+            
+            <div className="About-Container">
              <h1>Our History</h1>
+
             <p  className="About-Text">
                 Trippy is Owned and managed by Trippy in Pvt.Ltd, a leading brand in web designing
                 service and e-commerce solution. Trippy in Pvt.Ltd, is counted for web solutions 
@@ -28,7 +35,15 @@ export default function About()  {
                 To saw the seeds of par-excellence services with customer centric approach and reap the
                 trust of worldwide client's.
             </p>
-        </div>
+            </div>
+           
+            
+          
+            </div>
+        
+
+       
+        
         
     )
     

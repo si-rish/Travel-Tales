@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
@@ -11,7 +10,6 @@ import Contact from './views/Contact/Contact'
 import Shop from './views/Shop/Shop';
 import Login from './views/Login/Login';
 import Signup from './views/Signup/Signup';
-import Footer from './components/Footer/Footer'
 
 
 const router = createBrowserRouter([
@@ -47,8 +45,6 @@ const router = createBrowserRouter([
       path: '/login',
       element: <Login/>
   },
-
-   <Footer />
  
 ])
 

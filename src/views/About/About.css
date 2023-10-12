@@ -1,9 +1,13 @@
-.About-Container
+.image-2
+{
+   width: 100%;
+}
+ .About-Container
 {
    margin: 4rem 6rem;
    text-align: start;
 
-}
+} 
 .About-Container h1
 {
 padding-bottom: 1rem;
@@ -22,4 +26,44 @@ padding-bottom: 2rem;
     }   
 }
 
+.Our-team
+{
+   margin: 4rem 6rem;
+   text-align:center;
+}
 
+
+.main-container
+{
+   display: block;
+  justify-content: space-around;
+  
+}
+.cards
+{
+ width: 270px; 
+  border-radius: 20px;
+  background-color:white;
+  box-shadow: 0px 10px 8px #999;
+  padding: 10px;
+  
+  
+}
+
+.team-member-img
+{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.info
+{
+   text-align: center; 
+}
+
+.cards:hover
+{
+transition: 1s;
+border: 1px solid;
+padding: 20px;
+}
