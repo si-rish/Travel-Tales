@@ -1,6 +1,7 @@
 import { useState } from "react"
 import "./Signup.css"
-import Login from '../../views/Login/Login'
+import Login from '../../views/Login/Login';
+import { Alert } from "@chakra-ui/react";
 
 
  function Registration()  {
@@ -33,6 +34,8 @@ import Login from '../../views/Login/Login'
    function handleClick(){
     setLogin(!login);
    }
+
+   
     return(
         <div className="p-4">
 
@@ -80,10 +83,10 @@ import Login from '../../views/Login/Login'
               required
               onChange={(event)=>setPassword(event.target.value)}
               /></div>
-        <button type="submit" className=" button btn btn-dark  btn-lg btn-block">Register</button>
+        <button type="submit" className=" button btn btn-dark  btn-lg btn-block" >Register</button>
         <p className="forgot-password text-right" onClick={handleClick}>Already Registered{" "}Login in</p>
 
-        
+
      
           </form>
           ):(
