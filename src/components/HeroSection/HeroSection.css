@@ -1,12 +1,12 @@
 
-.app-title{
+.herosection-title{
     font-size: 3.5rem;
     text-align: center;
     margin: 200px auto 50px;
     color: #ffffff;
 }
 
-.explore-btn {
+.herossection-btn-btn {
     width: 11em;
     height: 2.5em;
     display: block;
@@ -23,11 +23,11 @@
     overflow: hidden;
    }
    
-   .explore-btn:hover {
+   .herossection-btn:hover {
     color: black;
    }
    
-   .explore-btn:after {
+   .herossection-btn:after {
     content: "";
     background: white;
     position: absolute;
@@ -40,13 +40,13 @@
     transition: all 0.5s;
    }
    
-   .explore-btn:hover:after {
+   .herossection-btn:hover:after {
     transform: skewX(-45deg) scale(1, 1);
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
    }
 
-   .arrow{
+   .hero-arrow{
     margin: 0px 8px 0px;
     background-color: rgb(76, 172, 52);
     color: white;
