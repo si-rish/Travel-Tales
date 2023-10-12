@@ -1,7 +1,8 @@
 .navbar{
-    background-color: #1e293b;
+    background-color:#161F30;
     opacity: 80%;
     color:white;
+   
 }
 
 .nav-brand{
@@ -24,12 +25,12 @@
 
 /* CSS */
 .registeration {
-  background-color: #fff;
+  background-color: #61ab7e;
   
   border: 0 solid #e2e8f0;
   border-radius: 1.5rem;
   box-sizing: border-box;
-  color: #4ca570;
+  color: white;;
   cursor: pointer;
   display: inline-block;
   font-family: 'poppins';
@@ -44,6 +45,7 @@
 }
 
 .registeration:hover {
-  background-color: #61ab7e;
-  color: #fff;
+  background:  rgba(0, 0, 0, 0.521);
+  color: rgb(233, 187, 62);
+  transform: scale(1.1);
 }

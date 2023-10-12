@@ -3,28 +3,25 @@ import "./Blogs.css"
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 
-export default function Blogs()  {
-    const[Blogs,setBlogs]=React.useState([
+
+export default function Blog()  {
+    const[blog,setBlogs]=React.useState([
       {
         name:'Shreya',
         date:11/10/2023,
-        Blog:'Out of Town Blog is a travel, food, and lifestyle online magazThis trave Out of Town Blog is a travel, food, and lifestyle online magazine. This travel blog started as a site where the publisher shares his personal travel experiences, photographs and travel tips to his friends, relatives, and online readers. Today, Out of Town Blog showcases travel tales, food reviews, hotel guides and reviews, travel destination guides and other travel-related inputs from various contributors from all over the world.',
+        blog:'Out of Town Blog is a travel, food, and lifestyle online magazThis trave Out of Town Blog is a travel, food, and lifestyle online magazine. This travel blog started as a site where the publisher shares his personal travel experiences, photographs and travel tips to his friends, relatives, and online readers. Today, Out of Town Blog showcases travel tales, food reviews, hotel guides and reviews, travel destination guides and other travel-related inputs from various contributors from all over the world.',
       },
       {
         name:'Shreya',
         date:11/10/2023,
-        Blog:'Out of Town Blog is a travel, food, and lifestyle online magazThis travel Out of Town Blog is a travel, food, and lifestyle online magazine. This travel blog started as a site where the publisher shares his personal travel experiences, photographs and travel tips to his friends, relatives, and online readers. Today, Out of Town Blog showcases travel tales, food reviews, hotel guides and reviews, travel destination guides and other travel-related inputs from various contributors from all over the world.',
+        blog:'Out of Town Blog is a travel, food, and lifestyle online magazThis travel Out of Town Blog is a travel, food, and lifestyle online magazine. This travel blog started as a site where the publisher shares his personal travel experiences, photographs and travel tips to his friends, relatives, and online readers. Today, Out of Town Blog showcases travel tales, food reviews, hotel guides and reviews, travel destination guides and other travel-related inputs from various contributors from all over the world.',
       },
       {
         name:'Shreya',
         date:11/10/2023,
-        Blog:'Out of Town Blog is a travel, food, and lifestyle online magazThis travelOut of Town Blog is a travel, food, and lifestyle online magazine. This travel blog started as a site where the publisher shares his personal travel experiences, photographs and travel tips to his friends, relatives, and online readers. Today, Out of Town Blog showcases travel tales, food reviews, hotel guides and reviews, travel destination guides and other travel-related inputs from various contributors from all over the world.',
+        blog:'Out of Town Blog is a travel, food, and lifestyle online magazThis travelOut of Town Blog is a travel, food, and lifestyle online magazine. This travel blog started as a site where the publisher shares his personal travel experiences, photographs and travel tips to his friends, relatives, and online readers. Today, Out of Town Blog showcases travel tales, food reviews, hotel guides and reviews, travel destination guides and other travel-related inputs from various contributors from all over the world.',
       },
-      {
-        name:'Shreya',
-        date:11/10/2023,
-        Blog:'Out of Town Blog is a travel, food, and lifestyle online magazThis travelOut of Town Blog is a travel, food, and lifestyle online magazine. This travel blog started as a site where the publisher shares his personal travel experiences, photographs and travel tips to his friends, relatives, and online readers. Today, Out of Town Blog showcases travel tales, food reviews, hotel guides and reviews, travel destination guides and other travel-related inputs from various contributors from all over the world.', 
-      },
+     
     ]);
 
 
@@ -38,27 +35,28 @@ export default function Blogs()  {
             <div className="division1">
                <div className="division2">
                <h2 className="heading2">Inspiring Travel Blogs</h2>
-               <div >
                  {
-                    Blogs.map((Blog,index)=>{
-                        
-                       return(
-                        <div className='BlogCard'>
-                            <p className='blog-name m-2'>🎒{Blog.name}</p>
-                            <p className='blog-date m-2'>📅{Blog.date}</p>
-                            <p className='blog-date m-2'>🖼️{Blog.blog}</p>
-                            </div>
+                   blog.map((blog, index)=>{
+                       return (
+                         <div className='BlogCard'>
+                          <p className='blog-name m-2'>🎒{blog.name}</p>
+                          <p className='blog-date m-2'>📅{blog.date}</p>
+                          <p className='blog-blog m-2'>🖼️{blog.blog}</p>
+                         </div>
                        )
-                    })
+
+                       })
+                    
                     
                  }
+            
                </div>
             
             
                     
                        
             
-                </div>
+        
                  
                
                
