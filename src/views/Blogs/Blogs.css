@@ -1,6 +1,6 @@
 .division1{
 
-    height: 900px;
+    height: 1200px;
     width: auto;
     display: flex;
     flex-direction: row;
@@ -31,7 +31,7 @@
 }
 
 .heading3{
-    font-size: 22px;
+    font-size: 30px;
     font-style:italic;
     text-align: center;
     color: black;
@@ -44,7 +44,7 @@
 }
 
 .BlogCard{
-    height: 230px;
+    height: 300px;
     width: 700px;
 
     border-radius: 8px;
@@ -55,6 +55,26 @@
     
 
 }
+
+.like-division{
+    background-color:aliceblue;
+    height: 40px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.comment{
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.like{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
 .blog-name{
     font-size: 30px;
     margin-top: 1px;
@@ -74,4 +94,13 @@
 .blog-blog{
     text-align: justify;
     padding: 3px;
+}
+
+.user-input{
+    display: block;
+    font-size: 25px;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 5px;
+    border: 1px solid #e65c00;
 }
