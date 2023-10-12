@@ -29,7 +29,9 @@ function Home() {
       </div>
 
       <GridComponent/>
+      <h2 className='description'>Offers</h2>
       <OfferSection/>
+      <h2 className='description'>Packages By Interest </h2>
       <TabComponent/>
      
      

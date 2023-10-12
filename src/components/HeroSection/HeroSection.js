@@ -8,7 +8,7 @@ function HeroSection() {
         <div className='main-container'>
             <div className='container'>
                 <h1 className='herosection-title fade-in-bottom'>Explore Travel Tales<br />Real Adventure & Travels</h1>
-                {/* <button className='herossection-btn'>Explore Now <FontAwesomeIcon icon={faArrowRight} className='hero-arrow' /></button> */}
+                <button className='herossection-btn'>Explore Now <FontAwesomeIcon icon={faArrowRight} className='hero-arrow' /></button>
             </div>
         </div>
     )
