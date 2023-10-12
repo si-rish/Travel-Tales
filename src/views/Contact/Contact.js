@@ -8,8 +8,10 @@ function Contact() {
         <div >
             <Navbar />
             <div className="contact-container">
-            
-            <form>
+            <div className="Contact-card">
+                <h1>Contact Details</h1>
+            </div>
+            <form className="Contact-card">
                 <h1>Contact for Enquiry Here...</h1>
                 <input type="text" name="name" id="" placeholder="Enter Name" className="form_input-box"></input>
                 <input type="email" name="emial" id="" placeholder="example@gmail.com" className="form_input-box"></input>
