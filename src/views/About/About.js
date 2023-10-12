@@ -1,7 +1,7 @@
 
 import "./About.css"
 import Navbar from '../../components/Navbar/Navbar'
-import img2 from './about images/img2.webp'
+import img from './about images/img1.webp'
 import img1 from './about images/img.jpg'
 
 
@@ -10,7 +10,7 @@ export default function About()  {
         <div >
             <Navbar/>
             
-            
+
             
             <div className="About-Container">
              <h1>Our History</h1>
@@ -38,6 +38,9 @@ export default function About()  {
             </div>
            
             
+          
+
+           
           
             </div>
         
