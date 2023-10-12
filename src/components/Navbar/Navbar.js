@@ -15,7 +15,7 @@ function Navbar() {
         <Link className='nav-link' to="/about">About</Link>
         <Link className='nav-link' to="/contact">Contact</Link>
         <Link className='nav-link' to="/shop">Shop</Link>
-
+        <Link className='nav-link'to="/Wishcard">Wishlist</Link>
         <Link to="/login"><button className='login-btn registeration'>Login</button></Link>
         <Link to="/signup"><button className='signup-btn registeration'>Sign up</button></Link>
    
