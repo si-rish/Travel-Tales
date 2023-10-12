@@ -104,14 +104,19 @@ export default function About()  {
             </div>
             </div>
 
-           
+            <div className="container">
+                <div className="cards">
+                <img src={img1} className="team-member-img"/>
+                <hr></hr>
+                <div className="info">
+                 I am Snehal parate
+                </div>
+            </div>
+            </div>
           
             </div>
         
 
-       
-        
-        
     )
     
 }
