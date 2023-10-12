@@ -1,0 +1,88 @@
+
+
+
+
+
+.App{
+    text-align: center;
+    padding: 30px;
+    margin: 60px;
+    font-size: 23px;
+    justify-content: center;
+   
+  }
+  .App
+  {text-align:center;
+  }
+  .App-l0go{
+    height:40vmin;
+    pointer-events:none;
+  }
+  @media(prefers-reduced-motion:no-preference){
+    .App-logo{
+      animation:App-logo-spin infinite 20s linear;
+    }
+  }
+  .App-header{
+    background-color: #282c34;
+    min-height:10vh;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px+2vmin);
+    color:white;
+  }
+  .App-link{
+    color:#61dafb;
+  }
+  
+ 
+  .outer{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+  }
+  .inner{
+    width:450px;
+    margin:auto;
+    background-color: #ffffff;
+    box-shadow:0px 14px 80px rgba(34,35,58,0.2);
+    display: inline-block;
+    padding:40px,55px,45px,55px;
+    border-radius: 15px;
+    transition:all .3s;
+    background-color: transparent; /*#46bade*/
+  }
+  .outer .form-control:focus{
+    border-color:#167bff;
+    box-shadow:none;
+  }
+  .outer h1{
+    font-weight:bold ;
+    text-align: center;
+    margin:0;
+    line-height:1;
+    padding:bottom;
+  }
+  label{
+    font-weight:600;
+    
+  }
+  .button{
+    margin:10px;
+    padding:6px;
+  
+
+  }
+  .forgot-password,
+  .forgot-password{
+    text-align:right;
+    font-size:17px;
+    padding-top:10px;
+    color:#393838;
+    margin:0;
+    cursor:pointer;
+  }
+  
