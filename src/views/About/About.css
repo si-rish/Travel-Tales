@@ -74,3 +74,12 @@ transition: 1s;
 border: 1px solid;
 padding: 20px;
 }
+.image
+{
+   width:80%;
+}
+
+.img3
+{
+   height: -10px;
+}

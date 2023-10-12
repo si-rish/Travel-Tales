@@ -3,7 +3,9 @@ import "./About.css"
 import Navbar from '../../components/Navbar/Navbar'
 import img from './about images/img1.webp'
 import img1 from './about images/img.jpg'
-
+import image1 from './about images/shanzey.jpg'
+import image2 from './about images/prerna.jpg'
+import image3 from './about images/snehal...jpg'
 
 export default function About()  {
     return(
@@ -41,7 +43,7 @@ export default function About()  {
             <h1 className="Our-team">Our Team's</h1>
             <div className="main-container">
                 <div className="cards">
-                <img src={img1} className="team-member-img"/>
+                <img src={image1} className="image team-member-img"/>
                 <hr></hr>
                 <div className="info">
                  I am Snehal parate
@@ -49,7 +51,7 @@ export default function About()  {
             </div>
 
             <div className="cards">
-                <img src={img1} className="team-member-img"/>
+                <img src={image2} className="team-member-img image"/>
                 <hr></hr>
                 <div className="info">
                     Hello..!!<br></br>
@@ -60,11 +62,8 @@ export default function About()  {
                 </div>
             </div>
 
-
-           
-
             <div className="cards">
-                <img src={img1} className="team-member-img"/>
+                <img src={image3} className="team-member-img image img3"/>
                 <hr></hr>
                 <div className="info">
                  I am Snehal parate
@@ -115,8 +114,7 @@ export default function About()  {
             </div>
           
             </div>
-        
-
+    
     )
     
 }
