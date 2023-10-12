@@ -54,8 +54,8 @@ export default function Blog()  {
                           <p className='blog-blog m-2'>🖼️{blog.blog}</p>
                           <div className='like-division'>
                             <div className='comment'>💬 Comment</div> 
-                            <div className='like'><button onClick={increase} className="button-ind">+</button>
-                            <span className="count-text"> {Count} </span></div>
+                            <div className='like'><button onClick={increase} className='button'>❤️</button>
+                            <span className="span"> {Count} </span></div>
                           </div>
                          </div>
                        )

@@ -57,7 +57,7 @@
 }
 
 .like-division{
-    background-color:aliceblue;
+    background-color:brown;
     height: 40px;
     width: 700px;
     display: flex;
@@ -70,6 +70,10 @@
 }
 
 .like{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.button{
     margin-right: 20px;
     font-size: 20px;
 }
@@ -103,4 +107,7 @@
     margin: 30px;
     border-radius: 5px;
     border: 1px solid #e65c00;
+}
+.span{
+    margin-right: 1px;
 }
