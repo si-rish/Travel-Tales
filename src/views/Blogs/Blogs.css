@@ -27,6 +27,7 @@
     text-align: center;
     color:black;
     font-family: cursive;
+    margin-top: 10px;
     
 }
 
@@ -49,7 +50,7 @@
 
     border-radius: 8px;
     box-sizing: border-box;
-    box-shadow: 2px 2px 2px 2px black;
+    box-shadow: 1px 1px 1px 1px black;
     background-color: white;
     margin-bottom: 14px;
     
@@ -58,7 +59,7 @@
 
 .like-division{
     background-color:brown;
-    height: 40px;
+    height: 55px;
     width: 700px;
     display: flex;
     flex-direction: row;
@@ -66,16 +67,19 @@
 }
 .comment{
     margin-right: 30px;
-    font-size: 20px;
+    font-size: 30px;
+    padding: 2px;
 }
 
 .like{
     margin-right: 20px;
     font-size: 20px;
+    padding: 2px;
 }
 .button{
     margin-right: 20px;
     font-size: 20px;
+    margin-bottom: 5px;
 }
 
 
@@ -105,9 +109,27 @@
     font-size: 25px;
     padding: 5px;
     margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
     border-radius: 5px;
     border: 1px solid #e65c00;
 }
 .span{
     margin-right: 1px;
+}
+
+.btn-add-blog{
+    display: block;
+    font-size: 45px;
+    padding: 5px;
+    background-color: aqua;
+    margin-top: 15px;
+    margin: 3px auto;
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+    
 }

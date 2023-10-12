@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import "./Blogs.css"
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
+import showToast from 'crunchy-toast'
 
 
 export default function Blog()  {
@@ -16,11 +17,7 @@ export default function Blog()  {
         date:11-10-2023,
         blog:'=>Out of Town Blog is a travel, food, and lifestyle online magazThis travel Out of Town Blog is a travel, food, and lifestyle online magazine. This travel blog started as a site where the publisher shares his personal travel experiences, photographs and travel tips to his friends, relatives, and online readers. Today, Out of Town Blog showcases travel tales, food reviews, hotel guides and reviews, travel destination guides and other travel-related inputs from various contributors from all over the world.',
       },
-      {
-        name:'saru Mangeshkar',
-        date:11-11-2023,
-        blog:'=>Out of Town Blog is a travel, food, and lifestyle online magazThis travelOut of Town Blog is a travel, food, and lifestyle online magazine. This travel blog started as a site where the publisher shares his personal travel experiences, photographs and travel tips to his friends, relatives, and online readers. Today, Out of Town Blog showcases travel tales, food reviews, hotel guides and reviews, travel destination guides and other travel-related inputs from various contributors from all over the world.',
-      },
+     
      
      
     ]);
@@ -37,6 +34,27 @@ export default function Blog()  {
   }
 
 
+  const [name,setName] = useState('');
+  const [date,setDate] = useState('');
+
+  const [message,setMessage]= useState('');
+
+
+  const addBlock = () => {
+           const obj = {
+            name:name,
+            date:date,
+            message:message,
+           }
+           setBlogs([...blog, obj])
+
+           showToast('Your Blog has added successfully !','success',3000)
+
+           setName('');
+           setDate('');
+           setMessage('');
+          
+  };
 
     return(
         <div>
@@ -84,13 +102,48 @@ export default function Blog()  {
                <div className="division4">
                 <h2 className="heading3">Share Your Travel Experience With Us..</h2>
                 <form>
-                   <input type='text' placeholder='Name' />
-                   <input type='Date' />
-                   <input type='text' placeholder='Blog' />
 
+                  {name}
+                   <input type='text' 
+                   placeholder='Name' 
+                   className='user-input'
+                   onChange={(e)=>{
+                    setName(e.target.value)
+                   }}
+                   value={name}
+                   />
+
+
+                    {date}
+                   <input type='Date' 
+                   className='user-input'
+                   onChange={(e)=>{
+                    setDate(e.target.value)
+                   }}
+                   value={date}
+                   />
+
+
+                   {message}
+                   <input 
+                   type='message'
+                    placeholder='Blog'
+                   className='user-input'
+                   onChange={(e)=>{
+                    setMessage(e.target.value)
+                   }}
+                   value={message}
+                   />
+                   
+                   
                         
                 </form>
-
+                <button type='button'
+                 className='btn-add-blog'
+                 onClick={addBlock}
+                 >
+                  ➕
+                  </button>
                </div>
             </div>
            <Footer />
