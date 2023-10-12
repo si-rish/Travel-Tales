@@ -4,6 +4,7 @@ import {useNavigate} from "react-router-dom";
 
 function Loged(){
     const navigate=useNavigate();
+    console.log("home page");
  
     return(
     <>
