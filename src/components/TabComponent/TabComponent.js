@@ -283,6 +283,7 @@ function TabComponent() {
                         alt={'wildlife-photo'}
                         heading={'Bharatpur Bird Sanctuary'}
                         Offer={'13 Nights - 14 Days'}
+                        
                         />
                             </div>
                             <div>
