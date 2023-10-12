@@ -18,7 +18,7 @@ import img14 from './Shop images/Waist Bag for Men.jpg'
 import img15 from './Shop images/vaccum bags.jpg'
 import { FaShoppingCart } from 'react-icons/fa'
 import { AiFillStar } from 'react-icons/ai'
-
+import Footer from '../../components/Footer/Footer'
 export default function Shop() {
 
 
@@ -419,9 +419,10 @@ export default function Shop() {
         </div>
 
       </div>
+      <Footer/>
     </div>
 
-
+  
 
   )
 
