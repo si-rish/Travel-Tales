@@ -53,7 +53,9 @@ export default function Blog()  {
                           <date className='blog-date m-2'>📅{blog.date}</date>
                           <p className='blog-blog m-2'>🖼️{blog.blog}</p>
                           <div className='like-division'>
-                            <div className='comment'>💬 Comment</div> <div className='like'>❤️1</div>
+                            <div className='comment'>💬 Comment</div> 
+                            <div className='like'><button onClick={increase} className="button-ind">+</button>
+                            <span className="count-text"> {Count} </span></div>
                           </div>
                          </div>
                        )
