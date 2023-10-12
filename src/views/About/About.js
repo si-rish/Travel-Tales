@@ -56,9 +56,10 @@ export default function About()  {
                 <hr></hr>
                 <div className="info">
                 Hello..!!<br></br>
-                I am prerna barde<br></br>
-                pursuing bsc IT 2nd year<br></br>
-                sadabai raisoni women's college,nagpur
+                 I am shanzey Shaikh<br></br>
+                  from Parikrama College of Engineering HSBPVTGOI COE,Kashti,
+                  Shrigonda, Ahmednagar. 
+               
                 </div>
             </div>
 
@@ -67,9 +68,9 @@ export default function About()  {
                 <hr></hr>
                 <div className="info">
                 Hello..!!<br></br>
-                 I am shanzey Shaikh<br></br>
-                  from Parikrama College of Engineering HSBPVTGOI COE,Kashti,
-                  Shrigonda, Ahmednagar.
+                I am prerna barde<br></br>
+                pursuing bsc IT 2nd year<br></br>
+                sadabai raisoni women's college,nagpur
                  
                  
                 </div>
