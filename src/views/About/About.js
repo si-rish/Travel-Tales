@@ -50,7 +50,7 @@ export default function About()  {
                 <div className="info">
                 Hello..!!<br></br>
                 I am prerna barde<br></br>
-                bsc IT 2nd year<br></br>
+                pursuing bsc IT 2nd year<br></br>
                 sadabai raisoni women's college,nagpur
                 </div>
             </div>
@@ -73,7 +73,7 @@ export default function About()  {
                 <hr></hr>
                 <div className="info">
                 Hello..!!<br></br>
-                 I am Snehal parate<br></br>
+                 I am Snehal Parate<br></br>
                  pursuing BCA 3rd yr from<br></br>
                  from G.H Raisoni University,Amravati
                  
@@ -86,7 +86,10 @@ export default function About()  {
                 <img src={image4} className="team-member-img image"/>
                 <hr></hr>
                 <div className="info">
-                 
+                Hello..!!<br></br>
+                I am Jayant Sarve<br></br>
+                pursuing MCA <br></br>
+                G.H Raisoni University,Amravati
                 </div>
             </div>
 
@@ -103,7 +106,10 @@ export default function About()  {
                 <img src={image6} className="team-member-img image"/>
                 <hr></hr>
                 <div className="info">
-                 
+                 Hello..!!<br></br>
+                 I am Yash Chaudhari<br></br>  
+                 pursuing BCA 3rd yr from<br></br>
+                 from G.H Raisoni University,Amravati
                  
                 </div>
             </div>
@@ -114,7 +120,8 @@ export default function About()  {
                 <img src={img1} className="team-member-img"/>
                 <hr></hr>
                 <div className="info">
-                 I am Snehal parate
+                 Hello..!!<br></br>
+                 I am
                 </div>
             </div>
             </div>
