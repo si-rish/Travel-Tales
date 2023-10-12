@@ -1,12 +1,17 @@
-import "./Signup.css"
-import Navbar from '../../components/Navbar/Navbar'
+import './Signup.css';
+import Registration from './../Signup/Registration';
+import '.././../../node_modules/bootstrap/dist/css/bootstrap.css'
+function Signup(){
+  return (
+    <div className='App'>
+      <div className='outer'>
+        <div className='inner'>
+          <Registration/>
 
-export default function Signup()  {
-    return(
-        <div>
-            <Navbar/>
-            <h1>Signup</h1>
         </div>
-    )
-    
+        </div>
+
+    </div>
+  );
 }
+export default Signup;
