@@ -1,7 +1,8 @@
 import React,{ useState } from "react"
 import "./Login.css"
 
-import Loged from  "./../Login/Loged";
+
+import Loged from  "./Loged";
 
 function Login()  {
 
@@ -13,24 +14,35 @@ function Login()  {
 
     function handleLogin(e){
         e.preventDefault();
-        const mail=localStorage.getItem("Email").replace(/''/g,"");
-        const  pass=localStorage.getItem("Password").replace(/''/g,"");
+        const mail=localStorage.getItem("Email",true);
+                const  pass=localStorage.getItem("Password",true);
 
-        if(!emaillog.log || passwordlog){
+        if(emaillog ||  passwordlog ){
             setFlaglog(true);
+           setLoged(!loged);
             console.log("Empty");
+        
+           
+         
+         
         }
-        else if(passwordlog !== pass || pass || emaillog !==mail){
-            setFlaglog(true)
+        
+           
+            else if(passwordlog !== pass  || emaillog !==mail){
+                setFlaglog(true)
+                console.log("no");
+                setLoged(!loged);
+               
+            }
+            else{
+                setLoged(!loged);
+                setFlaglog(false);
+                alert("email and pass is incorrect")
+                console.log("No");
+            }
         }
-        else{
-            setLoged(!loged);
-            setFlaglog(false);
-        }
-    }
-    function handleclick(){
-       setLoged (!loged)
-    }
+        
+    
     return(
         <div className='Login'>
             {loged ? (
@@ -56,7 +68,7 @@ function Login()  {
               onChange={(event)=>setPasswordlog(event.target.value)}
 
               /></div>
-                <button type="submit" className="button btn btn-dark btn-lg btn-block" onClick={handleclick}>Login</button>
+                <button type="submit" value="submit" className="button btn btn-dark btn-lg btn-block" /*onClick={handleclick}*/>Login</button>
          
             
               </form>):(

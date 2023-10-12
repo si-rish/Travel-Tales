@@ -10,7 +10,7 @@ import Contact from './views/Contact/Contact'
 import Shop from './views/Shop/Shop';
 import Login from './views/Login/Login';
 import Signup from './views/Signup/Signup';
-
+import Wishcard from './views/Wishcard/Wishcard';
 
 const router = createBrowserRouter([
   {
@@ -43,8 +43,12 @@ const router = createBrowserRouter([
   },
   {
       path: '/login',
-      element: <Login/>
+      element: <Signup/>
   },
+  {
+    path: 'wishcard',
+    element : <Wishcard/>
+  }
  
 ])
 

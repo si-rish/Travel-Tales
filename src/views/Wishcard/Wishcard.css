@@ -1,0 +1,54 @@
+.app-container{
+    background-image: url('../Shop/Shop images/Wishcard.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+.app-title{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.app-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.whish-container
+{
+    
+    height: 400px;
+    width:400px;
+}
+.add-wish{
+
+    height: 400px;
+    width:400px;
+
+}
+.sub-heading{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.user-input{
+    display: block;
+    font-size: 25px;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.btn-add{
+    display: block;
+    font-size: 30px;
+    padding: 10px 30px;
+    margin: 25px auto;
+    background-color: black;
+    color: beige;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+}
