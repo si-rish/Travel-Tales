@@ -10,7 +10,7 @@ export default function About()  {
         <div >
             <Navbar/>
             
-
+            <img src={img} className="image-2" />
             
             <div className="About-Container">
              <h1>Our History</h1>
