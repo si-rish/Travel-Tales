@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import "./Blogs.css"
 import Navbar from '../../components/Navbar/Navbar'
-//import Footer from '../../components/Footer/Footer'
 import showToast from 'crunchy-toast';
+import Footer from '../../components/Footer/Footer';
 
 
 
@@ -146,6 +146,7 @@ export default function Blog()  {
                           </div>
                        </div>
                        
+                       
                         
                        )
 
@@ -153,7 +154,10 @@ export default function Blog()  {
                        
                     
                       }
-                  </div>
+                      </div>
+                    
+                  
+                  <Footer />
              </div>
                
               
