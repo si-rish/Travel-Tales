@@ -44,8 +44,12 @@ function Contact() {
 
 
             </div>
-            <div >
 
+            <div >
+                <h1>LET'S GET IN TOUCH!</h1>
+                <p>If you're looking for a real historical, colourful experience,
+                    Rajasthan tour packages are perfect. Get an unforgettable
+                    experience with our Rajasthan tour packages.</p>
                 <form>
 
                     <div className="Contact-card">
@@ -115,13 +119,13 @@ function Contact() {
                     <p><img src={fb} alt="" className="contact_img"></img></p>
                     <div className="contact-details-info">
                         <h1 className="contact_h1">Contact Details</h1>
-                    <p className="contact_p"><strong>Company Name:</strong> Your Company Name</p>
-                    <p className="contact_p"><strong>Address:</strong> Your Physical Address</p>
-                    <p className="contact_p"><strong>Phone:</strong> Your Phone Number</p>
-                    <p className="contact_p"><strong>Email:</strong> Your Email Address</p>
+                        <p className="contact_p"><strong>Company Name:</strong>TRAVELS_TALES</p>
+                        <p className="contact_p"><strong>Address:</strong>C - 81C, Sector - 8, Noida - 201308</p>
+                        <p className="contact_p"><strong>Phone:</strong>+39 055 2302885</p>
+                        <p className="contact_p"><strong>Email:</strong>travels-tales@gmail.com</p>
                     </div>
-                 </div>
-                
+                </div>
+
 
             </div>
 
