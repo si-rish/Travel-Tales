@@ -9,6 +9,11 @@
     
 }
 
+.home-header-heading{
+    text-align: center;
+    margin-top: 200px;
+}
+
 .app-desc{
     text-align: center;
     margin: 50px 150px 10px;
