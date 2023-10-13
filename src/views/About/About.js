@@ -1,6 +1,7 @@
 
 import "./About.css"
 import Navbar from '../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
 import img from './about images/img1.webp'
 import img1 from './about images/img.jpg'
 import image1 from './about images/shanzey.jpg'
@@ -139,7 +140,7 @@ export default function About()  {
                 </div>
             </div>
             </div>
-          
+          <Footer/>
             </div>
     
     )
