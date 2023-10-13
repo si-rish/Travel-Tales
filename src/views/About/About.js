@@ -53,7 +53,7 @@ export default function About()  {
            
 
             <h1 className="heading">Our Team's</h1>
-            <div className="main-container">
+            <div className="about-main-container">
                 <div className="cards">
                 <img src={image1} className="image team-member-img"/>
                 <hr></hr>
@@ -92,7 +92,7 @@ export default function About()  {
             </div>
             </div>
             
-            <div className="main-container">
+            <div className="about-main-container">
                 <div className="cards">
                 <img src={image4} className="team-member-img image"/>
                 <hr></hr>
