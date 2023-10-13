@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import "./Blogs.css"
 import Navbar from '../../components/Navbar/Navbar'
-import Footer from '../../components/Footer/Footer'
+//import Footer from '../../components/Footer/Footer'
 import showToast from 'crunchy-toast';
 
 
@@ -12,11 +12,6 @@ export default function Blog()  {
         name:'Shreya Kar',
         date:11-6-2023,
         blog:'=>Out of Town Blog is a travel, food, and lifestyle online magazThis trave Out of Town Blog is a travel, food, and lifestyle online magazine. This travel blog started as a site where the publisher shares his personal travel experiences, photographs and travel tips to his friends, relatives, and online readers. Today, Out of Town Blog showcases travel tales, food reviews, hotel guides and reviews, travel destination guides and other travel-related inputs from various contributors from all over the world.',
-      },
-      {
-        name:'Payal Nayak',
-        date:11-10-2023,
-        blog:'=>Out of Town Blog is a travel, food, and lifestyle online magazThis travel Out of Town Blog is a travel, food, and lifestyle online magazine. This travel blog started as a site where the publisher shares his personal travel experiences, photographs and travel tips to his friends, relatives, and online readers. Today, Out of Town Blog showcases travel tales, food reviews, hotel guides and reviews, travel destination guides and other travel-related inputs from various contributors from all over the world.',
       },
      
      
@@ -64,57 +59,21 @@ export default function Blog()  {
             <h2 className="heading1">Blogs</h2>
              </div>
 
-             <h3 className='hide'>Add  your fabulous Travelling Blogs here , to let people know the beauty of Nature , Journey  !</h3>
-              <h2 className='hide'>Because to ✈️ Travel is to Live 🧳</h2>
+             <h3 className='hide'>Short description about blogs that you can create and read</h3>
+              <h2 className='hide'>- refer chatgpt</h2>
               
               < hr className='hr'>
+                </hr>
               
-              
-              </hr>
 
-            <div className="division1">
-               <div className="division2">
-               <h2 className="heading2">Inspiring Travel Blogs</h2>
-                 {
-                   blog.map((blog, index)=>{
-                       return (
-                         <div className='BlogCard'>
-                          <p className='blog-name m-2'>🎒{blog.name}</p>
-                          <date className='blog-date m-2' >📅{blog.date}</date>
-                          <p className='blog-blog m-2'>🖼️{blog.blog}</p>
-                          <div className='like-division'>
-                            <div className='comment'>💬 Comment</div> 
-                            <div className='like'><button onClick={increase} className='button'>❤️</button>
-                            <span className="span"> {Count} </span></div>
-                          </div>
-                         </div>
-                       )
-
-                       })
-                    
-                    
-                 }
-            
-               </div>
-            
-            
-                    
-                       
-            
-        
-                 
-               
-               
-
-            
-        
-
-
+        <div className="division1">
 
                <div className="division4">
-                <h2 className="heading3">Share Your Travel Experience With Us..</h2>
+                <h2 className="heading3">Share Your Journey with us</h2>
                 <form>
+                  <div className='name-date'>
 
+                    
                   {name}
                    <input type='text' 
                    placeholder='Name' 
@@ -124,8 +83,9 @@ export default function Blog()  {
                    }}
                    value={name}
                    />
+                   
 
-
+                    
                     {date}
                    <input type='Date' 
                    className='user-input'
@@ -134,13 +94,17 @@ export default function Blog()  {
                    }}
                    value={date}
                    />
+                  
+
+
+                   </div>
 
 
                    {message}
                    <input 
                    type='message'
                     placeholder='Blog'
-                   className='user-input'
+                   className='user-input3'
                    onChange={(e)=>{
                     setMessage(e.target.value)
                    }}
@@ -157,10 +121,43 @@ export default function Blog()  {
                   ➕
                   </button>
                </div>
-            </div>
-           <Footer />
-    
-        </div>
+               </div>
+               
+            
+
+
+            <hr>
+            
+            </hr>
+
+            <div className="division2">
+               <h2 className="heading2">Inspiring Travel Blogs</h2>
+                 {
+                   blog.map((blog, index)=>{
+                       return (
+                         <div className='BlogCard'>
+                          <p className='blog-name m-2'>🎒{blog.name}</p>
+                          <date className='blog-date m-2' >📅{blog.date}</date>
+                          <p className='blog-blog m-2'>🖼️{blog.blog}</p>
+                          <div className='like-division'>
+                            <div className='comment'>💬 Comment</div> 
+                            <div className='like'><button onClick={increase} className='button'>❤️</button>
+                            <span className="span"> {Count} </span></div>
+                          </div>
+                       </div>
+                       
+                        
+                       )
+
+                       })
+                       
+                    
+                      }
+                  </div>
+             </div>
+               
+              
+        
     )
     
 }
