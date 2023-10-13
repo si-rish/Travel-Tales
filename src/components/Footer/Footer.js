@@ -58,7 +58,7 @@ export default function Footer() {
                     <div className="sb_footer-links-div">
                         <h4>LEGAL POLICIES</h4>
                         <a href=" ">
-                            <p>Terms & Conditions</p>
+                            <p >Terms & Conditions</p>
                         </a>
                         <a href=" ">
                             <p>Disclaimer</p>

@@ -31,7 +31,7 @@
     margin-left:30px;
     margin-right:30px;
 }
-a{
+.sb_footer-links-div a{
     color: rgba(175, 175, 179);
     text-decoration: none;
     
@@ -84,4 +84,8 @@ hr{
     color: white;
     font-weight: 600;
     margin-right: 20px;
+    text-decoration: none;
+}
+.sb_footer-below-links a{
+    text-decoration: none;
 }
