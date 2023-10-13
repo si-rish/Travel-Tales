@@ -2,7 +2,8 @@ import React, {useState, useEffect} from 'react'
 import "./Blogs.css"
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
-import showToast from 'crunchy-toast'
+import showToast from 'crunchy-toast';
+
 
 
 export default function Blog()  {
@@ -59,7 +60,18 @@ export default function Blog()  {
     return(
         <div>
             <Navbar/>
-            <h2 className="heading1">To Travel 🧳 is to Live..!✈️</h2>
+            <div className="header_contact-main-img">
+            <h2 className="heading1">Blogs</h2>
+             </div>
+
+             <h3 className='hide'>Add  your fabulous Travelling Blogs here , to let people know the beauty of Nature , Journey  !</h3>
+              <h2 className='hide'>Because to ✈️ Travel is to Live 🧳</h2>
+              
+              < hr className='hr'>
+              
+              
+              </hr>
+
             <div className="division1">
                <div className="division2">
                <h2 className="heading2">Inspiring Travel Blogs</h2>

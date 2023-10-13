@@ -23,11 +23,11 @@
     border-radius: 5px;
 }
 .heading1{
-    font-size: 45px;
+    font-size: 50px;
     text-align: center;
-    color:black;
+    color:white;
     font-family: cursive;
-    margin-top: 10px;
+ 
     
 }
 
@@ -132,4 +132,22 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     
     
+}
+.img{
+    width: auto;
+    height: 100px;
+}
+.header_contact-main-img{
+    width: auto;
+    height: 300px;
+}
+
+.hide{
+    text-align: center;
+    font-family: fantasy;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hr{
+    font-size: 40px;
 }
