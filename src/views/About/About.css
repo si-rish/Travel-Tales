@@ -2,6 +2,7 @@
 {
    width: 100%;
 }
+
  .About-Container
 {
    margin: 4rem 6rem;
@@ -26,7 +27,7 @@ padding-bottom: 2rem;
     }   
 }
 
-.Our-team
+.heading
 {
    margin: 4rem 6rem;
    text-align:center;
@@ -53,8 +54,7 @@ margin-left: 85px;
   background-color:white;
   box-shadow: 0px 10px 8px #999;
   padding: 10px;
-  
-  
+  margin: 20px;
 }
 
 .team-member-img
