@@ -59,7 +59,7 @@ export default function Blog()  {
             <h2 className="heading1">Blogs</h2>
              </div>
 
-             <h3 className='hide'>Short description about blogs that you can create and read</h3>
+             <h3 className='hide'>Short description about blogs that you can create and read !</h3>
               <h2 className='hide'>- refer chatgpt</h2>
               
               < hr className='hr'>
