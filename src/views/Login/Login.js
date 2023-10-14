@@ -1,42 +1,43 @@
 import React,{ useState } from "react"
 import './Login.css';
 import showToast from 'crunchy-toast';
-import loged from './Loged';
+import { useNavigate } from "react-router-dom";
+
 function Login() {
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const [newPassword, setNewPassword] = useState('');
-    const [showUpdatePassword, setShowUpdatePassword] = useState(false);
-    const [loged,setLoged]=useState('');
-  
-    const handleLogin = () => {
-  
-      const logindata = localStorage.getItem('details');
-  
-      if (!logindata) {
-        showToast('No data found in localstorage', 'warning', 3000);
-        return;
-      }
-  
-      const storedDetails = JSON.parse(logindata);
-  
-      const matchingUser = storedDetails.find((obj) => {
-        return obj.email === email && obj.password === password});
-     
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [newPassword, setNewPassword] = useState('');
+  const [showUpdatePassword, setShowUpdatePassword] = useState(false);
+  const navigate = useNavigate();
+
+  const handleLogin = () => {
+
+    const logindata = localStorage.getItem('details');
+
+    if (!logindata) {
+      showToast('No data found in localstorage', 'danger', 3000);
       
-      
-  
-  
-      if (matchingUser) {
-        showToast(`Welcome Back ${matchingUser.Name}`, 'success', 3000);
-        localStorage.setItem('loginData',JSON.stringify(matchingUser));
-      
-  
-       
-      } else {
-        showToast('Invalid Email ID and Password', 'warning', 3000);
-      }
-    };
+      console.log('no data found');
+    return;
+    }
+
+    const storedDetails = JSON.parse(logindata);
+
+    const matchingUser = storedDetails.find((obj) => {
+      return obj.email === email && obj.password === password
+    }
+    );
+
+
+    if (matchingUser) {
+      showToast(`Welcome Back ${matchingUser.name}`, 'success', 3000);
+      localStorage.setItem('loginData',JSON.stringify(matchingUser));
+      showToast('Login Successfully','success',3000);
+      navigate('/')
+    } else {
+      showToast('Invalid Email ID and Password', 'warning', 3000);
+    }
+  };
   
   
     const handleUpdatePassword = () => {
@@ -69,7 +70,7 @@ function Login() {
      
               
         <div className='Login'>
-         { setLoged ? (
+      
          <form >
             <h1>Login</h1>
          <div className='form-group'>
@@ -148,11 +149,9 @@ function Login() {
          
             
               </form>
-      ):(
-        <loged/>
-      )}
+    
       </div>
-    )
+    );
     
 }
 
