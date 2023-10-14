@@ -30,7 +30,20 @@ body{
     text-align: center;
     margin-top: 30px;
     font-size: 50px;
+    margin-bottom: 20px;
 }
+.contact_heading h1::after{
+    content: " ";
+    position: absolute;
+    margin-bottom:130px ;
+    margin-left: 420px;
+    left:20px;
+    bottom: 0;
+    border: 3px solid salmon;
+    width: 22%;
+
+}
+
 .contact_heading p{
     text-align: center;
     margin-top: 10px;
@@ -106,6 +119,16 @@ body{
     margin-left:160px;
     margin-bottom: 30px;
     font-weight: 800;
+}
+.contact_h1::after{
+    content: " ";
+    position: absolute;
+    margin-bottom:-790px ;
+    margin-left: 840px;
+    left:20px;
+    bottom: 0;
+    border: 3px solid salmon;
+    width: 20%;
 }
 .contact_map{
     margin-top: 30px;
