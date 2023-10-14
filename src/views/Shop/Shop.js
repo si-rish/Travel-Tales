@@ -112,7 +112,7 @@ export default function Shop() {
           <h3 className="shop-name-text">Black Jacket</h3>
           <div class="shop-product-price-details">
             <h4>₹ 1200</h4>
-            <del><h5>1500</h5></del>
+            <del ><h5>1500</h5></del>
             <h5 className="off-text">(25% off)</h5>
           </div>
           <div className="button-ab">
