@@ -4,17 +4,17 @@ import "./OfferSection.css"
 function OfferSection() {
   return (
     <div >
-        <h3 className='offer-heading'>Offers</h3>
-        <div>
+       
+        <div className="offer-section">
           <div>
-            card1
+            offer-section card 1
           </div>
           <div>
-            card2
+          offer-section card 2
           </div>
           <div>
-            card3
-          </div>
+          offer-section card 3
+          </div >
         </div>
 
          

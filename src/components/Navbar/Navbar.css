@@ -1,3 +1,5 @@
+
+
 .navbar{
     background-color:#161F30;
     opacity: 80%;
@@ -5,22 +7,39 @@
    
 }
 
+.tales-logo{
+  background-color: rgb(243, 189, 25);
+  
+  color: #161F30;
+  border-radius: 19px;
+  padding: 0px 6px;
+  font-weight: 700;
+}
+
 .nav-brand{
-    display: inline-block;
-    color: aliceblue;
-    margin-right: 38vw;
-    margin-left: 15px;
+  display: inline-block;
+  
+  color: aliceblue;
+  margin-right: 38vw;
+  margin-left: 15px;
+  font-weight: 900;
     font-size: 1.5rem;
+    letter-spacing: 2px;
 }
 
 .nav-link{
     color: rgb(244, 243, 243);
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 5px 0px 0px ;
     text-decoration: none;
     cursor: pointer;
+    font-family: "poppins";
   
-  
+}
+
+.nav-link:hover{
+  transform: scale(.90);
+  transition: all.3s ease;
 }
 
 /* CSS */
@@ -37,7 +56,7 @@
   font-weight: 400;
   line-height: 1;
   padding: 8px 15px;
-  margin: 0px 8px;
+  margin: 0px 14px 0px 8px ;
   text-align: center;
   text-decoration: none #0d172a solid;
   transition: all ease-out 0.3s;

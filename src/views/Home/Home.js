@@ -15,9 +15,10 @@ function Home() {
   return (
     <div>
       <Navbar />
-      <div className="header-main-img">
-        <HeroSection />
+      <div className='home-header-img '>
+        <HeroSection/>
       </div>
+      
         <p className='app-desc'>Uncover hidden gems, savor regional delicacies, and immerse yourself in the warmth and hospitality of the local communities.</p>
         <hr className='hr-line1'/>
         <TopNationCard />
@@ -29,7 +30,9 @@ function Home() {
       </div>
 
       <GridComponent/>
+      <h2 className='description'>Offers</h2>
       <OfferSection/>
+      <h2 className='description'>Packages By Interest </h2>
       <TabComponent/>
      
      

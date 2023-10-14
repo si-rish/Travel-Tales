@@ -1,0 +1,25 @@
+.img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.grid-wallpeper-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-wallpeper{
+    display:grid;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 30px;
+    gap: 30px;
+    grid-template-columns: auto auto auto auto;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}  
