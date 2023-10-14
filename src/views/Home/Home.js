@@ -31,7 +31,7 @@ function Home() {
       </div>
 
       <GridComponent/>
-      <h2 className='description'>S</h2>
+      <h2 className='description'>Services</h2>
       <OfferSection/>
       
       <h2 className='description'>Packages By Interest </h2>
