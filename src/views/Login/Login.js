@@ -1,82 +1,179 @@
 import React,{ useState } from "react"
-import "./Login.css"
+import './Login.css';
+import showToast from 'crunchy-toast';
+import loged from './Loged';
+function Login() {
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [newPassword, setNewPassword] = useState('');
+    const [showUpdatePassword, setShowUpdatePassword] = useState(false);
+    const [loged,setLoged]=useState('');
+  
+    const handleLogin = () => {
+  
+      const logindata = localStorage.getItem('details');
+  
+      if (!logindata) {
+        showToast('No data found in localstorage', 'warning', 3000);
+        return;
+      }
+  
+      const storedDetails = JSON.parse(logindata);
+  
+      const matchingUser = storedDetails.find((obj) => {
+        return obj.email === email && obj.password === password});
+     
+      
+      
+  
+  
+      if (matchingUser) {
+        showToast(`Welcome Back ${matchingUser.Name}`, 'success', 3000);
+        localStorage.setItem('loginData',JSON.stringify(matchingUser));
+      
+  
+       
+      } else {
+        showToast('Invalid Email ID and Password', 'warning', 3000);
+      }
+    };
+  
+  
+    const handleUpdatePassword = () => {
+      const logindata = localStorage.getItem('details');
+  
+      if (!logindata) {
+        showToast('No data found in localstorage', 'warning', 3000);
+        return;
+      }
+  
+      const storedDetails = JSON.parse(logindata);
+      const userIndex = storedDetails.findIndex((obj) => {
+        return obj.email === email;
+      });
+  
+      if (userIndex !== -1) {
+        storedDetails[userIndex].password = newPassword;
+        localStorage.setItem('details', JSON.stringify(storedDetails));
+        showToast('Password update successfully', 'success', 3000);
+      } else {
+        showToast('User not found', 'warning', 3000);
+      }
+  
+      setShowUpdatePassword(false)
+    }
 
 
-import Loged from  "./Loged";
-
-function Login()  {
-
-    const[namelog,setnamelog]=useState("");
-    const[emaillog,setEmaillog]=useState("");
-    const[passwordlog,setPasswordlog]=useState("");
-    const[flaglog,setFlaglog]=useState("false");
-    const[loged,setLoged]=useState("true");
-
-    function handleLogin(e){
-        e.preventDefault();
-        const mail=localStorage.getItem("Email",true);
-                const  pass=localStorage.getItem("Password",true);
-
-        if(emaillog ||  passwordlog ){
-            setFlaglog(true);
-           setLoged(!loged);
-            console.log("Empty");
-        
-           
-         
-         
-        }
-        
-           
-            else if(passwordlog !== pass  || emaillog !==mail){
-                setFlaglog(true)
-                console.log("no");
-                setLoged(!loged);
-               
-            }
-            else{
-                setLoged(!loged);
-                setFlaglog(false);
-                alert("email and pass is incorrect")
-                console.log("No");
-            }
-        }
-        
     
     return(
+     
+              
         <div className='Login'>
-            {loged ? (
-         <form onSubmit={handleLogin}>
+         { setLoged ? (
+         <form >
             <h1>Login</h1>
          <div className='form-group'>
               <label>Email</label>
               <input
-              type="text"
+          
               className="form-control"
               placeholder='Enter Email'
               required
-              onChange={(event)=>setEmaillog(event.target.value)}
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+           
               /></div>
               
               <div className='form-group'>
               <label>Password</label>
               <input
-              type="text"
+           
               className="form-control"
               placeholder='Enter Password'
               required
-              onChange={(event)=>setPasswordlog(event.target.value)}
+              type="password"
+              value={password}
+             
+            
+             onChange={(e) => setPassword(e.target.value)}
+
 
               /></div>
-                <button type="submit" value="submit" className="button btn btn-dark btn-lg btn-block" /*onClick={handleclick}*/>Login</button>
+       <button  onClick={handleLogin} type="submit" value="submit" className="button btn btn-dark btn-lg  btn-lg btn-block" >Login</button>
+
+<br/>
+
+             
+           
+               
+                
+                {showUpdatePassword ? (
+              
+                <div className='form-group'>
+              <label>New Password</label>
+              <input
+           
+              className="form-control"
+              placeholder='Enter NewPassword'
+              required
+              type="password"
+              value={newPassword}
+             
+            
+             onChange={(e) => setNewPassword(e.target.value)}
+ 
+
+              />
+              
+             
+              
+              
+                <button onClick={handleUpdatePassword} className='"text-right button btn btn-dark  btn-lg btn-block" update-btn mt-3 '>Update </button>
+              </div>
+            ) : (
+              <span 
+              style={{cursor : "pointer", /*color:"blue"*/}}
+               onClick={() => setShowUpdatePassword(true)}
+                className="forgot-password text-left" >Forgot password?</span>
+            )}<br/>
+                  
+                
+                <h2 class="text-center">Or Login Using</h2>
+          <div class="d-flex justify-content-center">
+              <a href="https://accounts.google.com/"><img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" class="logo mx-2"/></a>
+              <a href="https://www.facebook.com/"><img src="https://cdn-icons-png.flaticon.com/128/3670/3670124.png" class="logo mx-2"/></a>
+              <a href="https://twitter.com/i/flow/login?lang=en"><img src="https://logowik.com/content/uploads/images/twitter-x5265.logowik.com.webp" class="logo mx-2"/></a> 
+          </div>
          
             
-              </form>):(
-<Loged/>
-     )}
+              </form>
+      ):(
+        <loged/>
+      )}
       </div>
     )
     
 }
 
 export default Login
+
+
+
+
+
+
+
+
+
+/* /*<div className='col-md-6 mx-auto col-lg-6 col- col-sm ju' >*/
+                /*<div className="input-box  mt-3">
+                  <input
+                    type="password"
+                    value={newPassword}
+                    
+                    onChange={(e) => setNewPassword(e.target.value)}
+                  />
+                  <span >New Password</span>
+                </div>*/
+                
