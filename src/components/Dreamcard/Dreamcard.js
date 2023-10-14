@@ -2,7 +2,7 @@ import React from "react";
 
 import './Dreamcard.css';
 
-function ContactCard({Place,Date,deleteContact,enableEditMode,index}){
+function Dreamcard({Place,Date,deleteContact,enableEditMode,index}){
 
     return(
 
@@ -40,4 +40,4 @@ function ContactCard({Place,Date,deleteContact,enableEditMode,index}){
     )
 }
 
-export default ContactCard
+export default Dreamcard
