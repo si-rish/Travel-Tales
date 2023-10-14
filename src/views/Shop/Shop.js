@@ -30,7 +30,8 @@ import { FaShoppingCart } from 'react-icons/fa'
 import { AiFillStar } from 'react-icons/ai'
 import Footer from '../../components/Footer/Footer'
 export default function Shop() {
-
+  
+  
 
   return (
     <div >
@@ -39,12 +40,13 @@ export default function Shop() {
 
         <p className="main-img-txt">Experience the world, with our travel shopping tools....!</p>
         <h3 className="img-sub-text">Our shopping service for traveller....<FaShoppingCart /></h3>
+        <h5 className="caption-special">If you're looking to buy something special, shop here...</h5>
 
       </div>
 
       <div className="shop-main-container">
      
- <h3 className="section-pname-bags">BAGS</h3>
+ <h3 className="section-pname">BAGS</h3>
     <div className="shoppings-main">
         <div className="shop-product-card">
           <img src={bag1} className="shopping-objects" />
@@ -55,8 +57,10 @@ export default function Shop() {
             <h5 className="off-text">(25% off)</h5>
           </div>
           <div className="button-ab">
-            <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+       <button className="btn-card-Buy"> Buy Now</button>
+         
+            <button className="btn-card-add" >Add to Card</button>
+         
           </div>
       </div>
 
@@ -105,7 +109,7 @@ export default function Shop() {
 <div className="shoppings-main">
         <div className="shop-product-card">
           <img src={clothes1} className="shopping-objects" />
-          <h3 className="shop-name-text">Passport Holder </h3>
+          <h3 className="shop-name-text">Black Jacket</h3>
           <div class="shop-product-price-details">
             <h4>₹ 1200</h4>
             <del><h5>1500</h5></del>
