@@ -13,13 +13,14 @@ export default function Destination() {
         <div>
            <Navbar/>
             <div className="header-main-img">
-               <HeroSection />
+            <h1 className="text-header fade-in-bottom"  ><b>Destination</b></h1>
+               
            </div>
-            <h1 className="text"><b>Destination</b></h1>
+         
             <Form/>
             <h1 className="title1"><b>Explore Real Adventure</b></h1>
            <ImageGallery/>
-           <input className="search" type="searchbar" placeholder="Search..."/ >
+           <input className="search" type="searchbar" placeholder="Search..." ></input>
               <h1 className="title2"><b>Top Trending Destinatins </b></h1>
               <CardInfo/>
               <h2 className="title3"><b>Explore Top Destination by Region</b></h2>
