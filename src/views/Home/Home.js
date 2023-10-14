@@ -11,6 +11,7 @@ import TabComponent from '../../components/TabComponent/TabComponent'
 
 
 
+
 function Home() {
   return (
     <div>
@@ -30,8 +31,9 @@ function Home() {
       </div>
 
       <GridComponent/>
-      <h2 className='description'>Offers</h2>
+      <h2 className='description'>S</h2>
       <OfferSection/>
+      
       <h2 className='description'>Packages By Interest </h2>
       <TabComponent/>
      

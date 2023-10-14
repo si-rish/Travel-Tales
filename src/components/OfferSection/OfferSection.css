@@ -1,3 +1,25 @@
 .offer-section{
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0px 10px;
+}
+
+.offer-card-design{
+border:none;
+height: 250px;
+width: 250px;
+padding: 15px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+.fa_icons{
+    height: 55px;
+    width: 50px;
+    background-color: orange;
+    color: white;
+    padding: 10px 14px ;
+    border-radius: 50%;
 }
