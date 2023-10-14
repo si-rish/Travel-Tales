@@ -1,7 +1,7 @@
 import React from 'react'
 import "./OfferSection.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight, faRoute, faTicket, faHotel } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight, faRoute, faTicket, faHotel, faShoppingBag } from '@fortawesome/free-solid-svg-icons'
 
 
 function OfferSection() {
@@ -26,6 +26,12 @@ function OfferSection() {
           <FontAwesomeIcon icon={faHotel} className='fa_icons' />
           <h4>Hotel Booking</h4>
           <p>"Book a luxurious stay at our hotel and experience unparalleled comfort and convenience. Enjoy top-notch amenities throughout your stay."</p>
+
+          </div >
+          <div className='offer-card-design'>
+          <FontAwesomeIcon icon={faShoppingBag} className='fa_icons' />
+          <h4>Travel Shopping</h4>
+          <p>"Travel shopping with us purchase items or essentials specifically tailored for a journey or vacation, with enjoyable travel experience."</p>
 
           </div >
 
