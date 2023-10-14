@@ -39,6 +39,12 @@ h1 {
     scroll-snap-align: start;
     transition: all 0.2s;
 }
+.photo{
+    height: 300px;
+    width: 300px;
+    border-radius: 12px;
+    
+}
 
 .card1:not(:last-child) {
     margin-right: 10px;
