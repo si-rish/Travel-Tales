@@ -1,19 +1,32 @@
 
-.header-main-img{
-    background-image: url("https://images.pexels.com/photos/18466693/pexels-photo-18466693/free-photo-of-truck-on-road-through-desert.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+.destination-main-img{
+    background-image: url("https://images.pexels.com/photos/14083165/pexels-photo-14083165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
-    width: 100%; 
-    height: 80vh; 
+    width: 100vw; 
+    height: 85vh; 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     background-color: rgba(0, 0, 0, 0.304);
     background-blend-mode: multiply;
 }
 
-.poster{
+.destination-app-desc{
+    margin-bottom: 50px;
+}
+
+.destination-caption{
+    width: 80vw;
+    margin: 10px auto 70px;
+}
+
+.destination-descrpition{
+    margin: 50px auto 0px;
+}
+
+/* .poster{
     width: 100%;
     height: 500px;
 
-}
+} */
 .text-header{
     text-align: center;
     padding-top: 200px;
@@ -22,16 +35,6 @@
     font-weight: 500px;
     color: white;
     text-shadow: 4px 6px 10px #fff;
-}
-.text-header::after{
-    content: " ";
-    position: absolute;
-    margin-bottom: -3px;
-    margin-left:530px;
-    left: 20px;
-    bottom: 0;
-    border: 3px solid salmon;
-    width: 15%;
 }
 
 @keyframes fade-in-bottom {
@@ -85,4 +88,47 @@
     margin-left: 5px;
 }
 
+/* search */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto 30px;
+}
+
+/* Styles for the search input */
+.search-input {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* Styles for the search button */
+.search-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* Hover effect for the search button */
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+
+.destination-hr{
+    width: 50%;
+    margin: 50px auto;
+    
+}
 
