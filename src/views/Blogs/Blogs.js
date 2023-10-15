@@ -87,8 +87,8 @@ export default function Blog()  {
                     
                   {name}
                    <input type='text' 
-                   placeholder='Name' 
-                   className='user-input'
+                   placeholder='Prerna R. Barde' 
+                   className='user-input-name'
                    onChange={(e)=>{
                     setName(e.target.value)
                    }}
@@ -99,7 +99,8 @@ export default function Blog()  {
                     
                     {date}
                    <input type='Date' 
-                   className='user-input'
+                   placeholder='26/11/2023'
+                   className='user-input-date'
                    onChange={(e)=>{
                     setDate(e.target.value)
                    }}
@@ -114,7 +115,7 @@ export default function Blog()  {
                    {message}
                    <input
                    type='message'
-                    placeholder='Blog'
+                    placeholder='Share your Travel Blog'
                    className='user-input3'
                    onChange={(e)=>{
                     setMessage(e.target.value)
@@ -143,6 +144,7 @@ export default function Blog()  {
 
             <div className="division2">
                <h2 className="heading2">Inspiring Travel Blogs</h2>
+               <h3 className='heading5'>To Travel is to Live ..!</h3>
                  {
                    blog.map((blog, index)=>{
                        return (
