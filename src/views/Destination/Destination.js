@@ -23,7 +23,7 @@ export default function Destination() {
             {/* <Form/> */}
             <hr className="destination-hr" />
             <BookingForm />
-            <h1 className="destination-descrpition description"><b>Explore Real Adventure</b></h1>
+            <h1 className="destination-descrpition description">Explore Real Adventure</h1>
             <p className="caption destination-caption">
                 A traveler is an individual who explores different places, cultures, and experiences, often seeking adventure and personal growth through their journeys. They possess a spirit of wanderlust and a curiosity for the world beyond their own borders.
             </p>
@@ -32,12 +32,21 @@ export default function Destination() {
                 <button class="search-button">Search</button>
             </div>
 
-        <hr className="destination-hr" />
+            <hr className="destination-hr" />
             <ImageGallery />
-            <h1 className="title2"><b>Top Trending Destinatins </b></h1>
+            <p className="caption destination-caption image-gall">
+            Explore the world through captivating images of stunning landscapes and vibrant<br/> cultures in our travel image gallery. Let your wanderlust soar with each click.
+            </p>
+
+            <hr className="destination-hr" />
+
+            <h1 className="destination-descrpition description">Top Trending Destinations</h1>
             <CardInfo />
-            <h2 className="title3"><b>Explore Top Destination by Region</b></h2>
+            <hr className="destination-hr" />
+            <h2 className="destination-descrpition description"><b>Explore Top Destination by Region</b></h2>
             <CardSlider />
+
+            <hr className="destination-hr" />
 
             <CardSection />
             <Footer />

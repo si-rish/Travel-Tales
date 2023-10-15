@@ -10,22 +10,19 @@
 .containers {
     max-width: 1400px;
     padding: 0 15px;
-    margin: 0 auto;
+    margin: 100px 25px;
+    font-family: "poppins";
 }
 
-h1 {
-    font-size: 50px;
-    margin-bottom: 1em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
 .cards1 {
     display: flex;
-    padding: 25px 0px;
+    padding: 55px 0px;
     list-style: none;
     overflow-x: scroll;
     -ms-scroll-snap-type: x mandatory;
     scroll-snap-type: x mandatory;
+    font-family: "poppins";
 }
 
 .card1 {
@@ -33,6 +30,7 @@ h1 {
     flex-direction: column;
     flex: 0 0 100%;
     padding: 20px;
+    margin: 50px 25px;
     background: var(--white);
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
@@ -52,11 +50,14 @@ h1 {
 
 .card1:hover {
     color: var(--white);
-    background: var(--red);
+    background: var(--black);
 }
 
-.card1 .card1-title {
-    font-size: 20px;
+.card1 .card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+
 }
 
 .card1 .card-content {
@@ -69,17 +70,22 @@ h1 {
 }
 
 .card1 .card-link {
-    display: inline-block;
+    display: block;
+    width: 125px;
+    justify-content: center;
+    margin: 0px auto;
     text-decoration: none;
-    color: white;
-    background: var(--red);
+    background-color: #2d2322;
+    color: #fff;
     padding: 6px 12px;
     border-radius: 8px;
     transition: background 0.2s;
 }
 
 .card1:hover .card-link {
-    background: var(--darkred);
+    color: rgb(240, 173, 48);
+    transition: all.3s ease;
+    background-color: rgb(255, 255, 255);
 }
 
 .cards1::-webkit-scrollbar {
@@ -92,7 +98,9 @@ h1 {
 }
 
 .cards1::-webkit-scrollbar-thumb {
-    background: var(--darkred);
+    color: rgb(240, 173, 48);
+    transition: all.3s ease;
+    background-color: black;
 }
 
 .cards1::-webkit-scrollbar-track {
