@@ -51,7 +51,7 @@ body {
 .contact_heading h1::after {
     content: " ";
     position: absolute;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
     margin-left: 430px;
     left: 20px;
     bottom: 0;
@@ -177,7 +177,7 @@ body {
 .contact-details-info h1::after {
     content: " ";
     position: absolute;
-    margin-bottom: -865px;
+    margin-bottom: -900px;
     margin-left: 825px;
     left: 20px;
     bottom: 0;

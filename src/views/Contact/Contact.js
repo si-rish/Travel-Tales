@@ -4,7 +4,7 @@ import Navbar from './../../components/Navbar/Navbar';
 import Footer from './../../components/Footer/Footer';
 import { useState } from "react";
 import showToast from 'crunchy-toast'
-import fb from "./../../components/Image/facebook.png"
+
 
 
 function Contact() {
@@ -40,7 +40,7 @@ function Contact() {
     return (
         <div >
             <Navbar />
-            <div className="header_contact-main-img">
+            <div className="header_contact-main-img fade-in-bottom">
 
               <h1 className="fade-in-bottom contact-with-us">Contact With Us</h1>
             </div>
