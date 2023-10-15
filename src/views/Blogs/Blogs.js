@@ -3,6 +3,8 @@ import "./Blogs.css"
 import Navbar from '../../components/Navbar/Navbar'
 import showToast from 'crunchy-toast';
 import Footer from '../../components/Footer/Footer';
+import img1 from '../../components/Image/travel_HD.jpg';
+
 
 
 
@@ -55,12 +57,17 @@ export default function Blog()  {
     return(
         <div>
             <Navbar/>
-            <div className="header_contact-main-img">
-            <h2 className="heading1">Blogs</h2>
-             </div>
+            <div className="header-image">
+
+           <h1 className="fade-in-bottom header-image">Blogs</h1>
+           </div>
+           
+           
+            
+           
 
              <h3 className='hide'>Short description about blogs that you can create and read !</h3>
-              <h2 className='hide'>- refer chatgpt</h2>
+              <h2 className='hide1'>- refer chatgpt</h2>
               
               < hr className='hr'>
                 </hr>
@@ -101,7 +108,7 @@ export default function Blog()  {
 
 
                    {message}
-                   <input 
+                   <input
                    type='message'
                     placeholder='Blog'
                    className='user-input3'
@@ -126,7 +133,7 @@ export default function Blog()  {
             
 
 
-            <hr>
+            <hr className='hr1'>
             
             </hr>
 
@@ -158,8 +165,8 @@ export default function Blog()  {
                     
                   
                   <Footer />
-             </div>
-               
+             
+                </div>
               
         
     )
