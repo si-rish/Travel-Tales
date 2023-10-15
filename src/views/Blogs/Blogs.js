@@ -6,12 +6,19 @@ import Footer from '../../components/Footer/Footer';
 
 
 
+
+
 export default function Blog()  {
     const[blog,setBlogs]=React.useState([
       {
         name:'Shreya Kar',
-        date:11-6-2023,
-        blog:'=>Out of Town Blog is a travel, food, and lifestyle online magazThis trave Out of Town Blog is a travel, food, and lifestyle online magazine. This travel blog started as a site where the publisher shares his personal travel experiences, photographs and travel tips to his friends, relatives, and online readers. Today, Out of Town Blog showcases travel tales, food reviews, hotel guides and reviews, travel destination guides and other travel-related inputs from various contributors from all over the world.',
+        date:11-4-2023,
+        blog:'=>Out of Town Blog is a travel, food, and lifestyle online magazThis trave Out of Town Blog is a travel, food, and lifestyle online magazine. This travel blog started as a site where the publisher shares his personal travel experiences, photographs and travel tips to his friends, relatives, and online readers. Today, Out of Town Blog showcases travel tales, food reviews, hotel guides and reviews, travel destination guides 😎 and other travel-related inputs from various contributors from all over the world.!✈️❤️',
+      },
+      {
+        name:'Kashish Dadghaye',
+        date:11-4-2024,
+        blog:'=>Out of Town Blog is a travel, food, and lifestyle online magazThis trave Out of Town Blog is a travel, food,😋 and lifestyle online magazine. This travel 🏞️ blog started as a site where the publisher shares his personal travel experiences, photographs and travel tips to his friends,✌🏽 relatives, and online readers. Today, Out of Town Blog showcases travel tales, food reviews, hotel guides and reviews, travel destination guides and other travel-related inputs from various contributors from all over the world.',
       },
      
      
@@ -55,12 +62,21 @@ export default function Blog()  {
     return(
         <div>
             <Navbar/>
-            <div className="header_contact-main-img">
-            <h2 className="heading1">Blogs</h2>
-             </div>
+            <div className="header-image">
 
-             <h3 className='hide'>Short description about blogs that you can create and read !</h3>
-              <h2 className='hide'>- refer chatgpt</h2>
+           <h1 className="fade-in-bottom header-image">Blogs</h1>
+           </div>
+           
+           
+            
+           
+
+             <p className='hide'>A blog is a digital platform where individuals or organizations share written
+             content, often in the form of articles, posts , essays . It serves as a space for sharing information
+             , options, experiences, and expertise on a wide range of topics, catering to various interests and audiences.
+             Blogs can be personal diaries, educational resources, marketing tools, or sources of entertainment, making them a 
+             versatile medium for online communication. </p>
+              
               
               < hr className='hr'>
                 </hr>
@@ -72,38 +88,42 @@ export default function Blog()  {
                 <h2 className="heading3">Share Your Journey with us</h2>
                 <form>
                   <div className='name-date'>
-
-                    
                   {name}
                    <input type='text' 
-                   placeholder='Name' 
-                   className='user-input'
+                   placeholder='Prerna R. Barde' 
+                   className='user-input-name'
                    onChange={(e)=>{
                     setName(e.target.value)
                    }}
                    value={name}
                    />
-                   
 
-                    
-                    {date}
+
+
+                  {date}
                    <input type='Date' 
-                   className='user-input'
+                   placeholder='26/11/2023'
+                   className='user-input-date'
                    onChange={(e)=>{
                     setDate(e.target.value)
                    }}
                    value={date}
                    />
-                  
-
 
                    </div>
 
+                    
+                   
+                  
+
+
+                   
+
 
                    {message}
-                   <input 
+                   <input
                    type='message'
-                    placeholder='Blog'
+                    placeholder='Share your Travel Blog'
                    className='user-input3'
                    onChange={(e)=>{
                     setMessage(e.target.value)
@@ -126,12 +146,13 @@ export default function Blog()  {
             
 
 
-            <hr>
+            <hr className='hr1'>
             
             </hr>
 
             <div className="division2">
                <h2 className="heading2">Inspiring Travel Blogs</h2>
+               <h3 className='heading5'>To Travel is to Live ..!</h3>
                  {
                    blog.map((blog, index)=>{
                        return (
@@ -158,8 +179,8 @@ export default function Blog()  {
                     
                   
                   <Footer />
-             </div>
-               
+             
+                </div>
               
         
     )

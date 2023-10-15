@@ -1,29 +1,29 @@
 .container12{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    font-family: "poppins";
+    margin: 50px auto;
+   
+
 }
 
 .video{
     width: 550px;
     height: 500px;
-    margin-left: 40px;
-    margin-top: 50px;
-    margin-right: 30px;
     box-shadow: 30px;
-    border-radius: 15% 0px 15% 0px;
+    border-radius: 3rem;
 }
 .card23-componant{
     display:grid;
     justify-content: space-between;
     align-items: center;
-    row-gap: 30px;
-    gap: 30px;
+    gap: 20px;
     grid-template-columns: auto auto;
     margin-right: 30px;
 }
 .card23{
-    height: 350px;
-    width: 300px;
+    height: 200px;
+    width: 280px;
     border-radius: 20px;
     background-color: rgb(228, 236, 233);
     border-style: solid;
@@ -31,16 +31,21 @@
     box-shadow: rgb(168, 166, 166);
 }
 .logo{
-    height: 100px;
+    height: 70px;
     width: 120px;
     margin-top: 20px;
     margin-left: 20px;
 }
 .text02{
-    margin-left: 20px;
+padding: 5px;
+font-size: 25px;
+font-weight: 700;
 }
 .text03{
-    margin-left: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding: 5px;
+font-size: 18px;
+font-weight: 300;
+  
+   
     color: rgb(83, 80, 80);
 }

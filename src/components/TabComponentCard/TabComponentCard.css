@@ -1,13 +1,14 @@
 .tabcard-image{
-    height: 115px;
+    height: 120px;
     width: 150px;
+    margin-right: 10px;
     border-radius: 1.5rem 0rem 0rem 1.5rem ;
 }
 
 .tabcard-card{
-    margin: 20px 10px 5px;
+    margin: 40px 20px 5px;
     border-radius: 1.5rem;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     
 
 }
@@ -28,7 +29,7 @@
     font-size: small;
     font-weight: 400;
     line-height: 50%;
-    margin-left: 18px;
+    padding:15px 50px 0px 0px ;
 }
 
 .tabcard-btn{
@@ -41,9 +42,10 @@
     color: rgb(255, 166, 0);
     font-weight: 700;
     font-family: "poppins";
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
 }
 
 .tabcard-btn:hover{
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+   
 }
