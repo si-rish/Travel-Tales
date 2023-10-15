@@ -44,7 +44,7 @@
 }
 .sb_footer-links-div h4:hover{
     font-size: 20px;
-    margin-left:10px;
+    margin-left:3px;
 }
 
 .sb_footer-links-div p{
@@ -54,8 +54,8 @@
     cursor:pointer;
 }
 .sb_footer-links-div p:hover{
-    font-size: 20px;
-    margin-left:10px;
+    font-size: 16px;
+    margin-left:3px;
 }
 .socialmedia{
     display: flex;

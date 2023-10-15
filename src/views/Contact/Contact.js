@@ -4,7 +4,7 @@ import Navbar from './../../components/Navbar/Navbar';
 import Footer from './../../components/Footer/Footer';
 import { useState } from "react";
 import showToast from 'crunchy-toast'
-import fb from "./../../components/Image/facebook.png"
+
 
 
 function Contact() {
@@ -40,12 +40,12 @@ function Contact() {
     return (
         <div >
             <Navbar />
-            <div className="header_contact-main-img">
+            <div className="header_contact-main-img fade-in-bottom">
 
-              <h1>Contact With Us</h1>
+              <h1 className="fade-in-bottom contact-with-us">Contact With Us</h1>
             </div>
 
-            <div  className="contact_heading">
+            <div  className="contact_heading ">
                 <h1>LET'S GET IN TOUCH!</h1>
                 <p>If you're looking for a real tour place, colourful experience,
                     India tour packages are perfect. Get an unforgettable
@@ -54,7 +54,7 @@ function Contact() {
                 <form>
 
                     <div className="Contact-card">
-                        <h1> 📞Contact for Enquiry Here... </h1>
+                        <h1>✉️ Contact for Enquiry Here... </h1>
                         <input
                             type="text"
                             name="name"
@@ -129,8 +129,8 @@ function Contact() {
                       </iframe>
                     </div>
                     <div className="contact-details-info">
-                        <h1 className="contact_h1">Contact Details</h1>
-                        <p className="contact_p"><strong className="contact_detail-name">Company Name: </strong>TRAVELS_TALES</p>
+                        <h1 className="contact_h1 contact-h1-line">Contact Details</h1>
+                        <p className="contact_p"><strong className="contact_detail-name">Company Name: </strong>TRAVELS-TALES</p>
                         <p className="contact_p"><strong className="contact_detail-name">Address: </strong>C- 81C, Sector 65, C Block, Sector 8, Noida, Uttar Pradesh 201301</p>
                         <p className="contact_p"><strong className="contact_detail-name">Phone: </strong>+39 055 2302885</p>
                         <p className="contact_p"><strong className="contact_detail-name">Email: </strong>travels-tales@gmail.com</p>

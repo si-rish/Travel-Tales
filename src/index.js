@@ -11,10 +11,15 @@ import Shop from './views/Shop/Shop';
 import Login from './views/Login/Login';
 import Signup from './views/Signup/Signup';
 import Wishcard from './views/Wishcard/Wishcard';
+import MainHome from './views/MainHome/MainHome';
 
 const router = createBrowserRouter([
+    {
+        path: '/',
+        element: <MainHome/>
+    },
   {
-      path: '/',
+      path: '/home',
       element: <Home/>
   },
   {

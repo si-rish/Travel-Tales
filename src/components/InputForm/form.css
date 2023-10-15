@@ -1,4 +1,4 @@
-.box{
+/* .box{
     border: solid;
     border-color: rgb(221, 209, 201);
     margin-left: 30px;
@@ -13,7 +13,7 @@ input{
     border-radius: 15px;
 
 }
-input-placeholder {
+.input-placeholder {
     font-size: 10px;
     margin-left: 6px ;
 }
@@ -40,4 +40,4 @@ input-placeholder {
     background-color: rgba(231, 230, 225, 0.938);
     height: 50px;
     width: 200px;
-}
+} */

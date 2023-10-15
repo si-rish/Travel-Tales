@@ -16,7 +16,7 @@ export default function cardinfo() {
             <img className='img2' src="https://www.tourmyindia.com/tmimg/rajasthan-tourism.webp" alt="Avatar" />
            <div class="container56">
              <p>25 Tour Packages</p>
-             <h4><b>Rajasthan Tourism Guide</b></h4>
+             <h4><b>Jaipur Tourism Guide</b></h4>
            </div>
         </div>
         <div class="card56">
