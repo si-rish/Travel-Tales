@@ -20,7 +20,7 @@ function Navbar() {
         <Link className='nav-link'to="/Wishcard"><FontAwesomeIcon icon={faHeart} className='nav-icons' /> Wishlist</Link>
         {/* <Link to="/login"><button className='login-btn registeration'>Login</button></Link> */}
 
-        <Link to="/signup"><button className='signup-btn registeration'>Register</button></Link>
+        {/* <Link to="/signup"><button className='signup-btn registeration'>Register</button></Link> */}
       
 
         <Link to="/signup"><button className='signup-btn registeration'>Register <FontAwesomeIcon icon={faRightToBracket} className='nav-icons' /> </button></Link>
