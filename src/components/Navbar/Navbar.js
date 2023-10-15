@@ -9,7 +9,7 @@ function Navbar() {
       
         <h2 className='nav-brand'>TRAVEL<span className='tales-logo'>TALES</span></h2>
 
-        <Link className='nav-link' to="/" >Home</Link>
+        <Link className='nav-link' to="/Home" >Home</Link>
         <Link className='nav-link' to="/destination">Destinations</Link>
         <Link className='nav-link' to="/blogs">Blogs</Link>
         <Link className='nav-link' to="/about">About</Link>
