@@ -14,7 +14,7 @@ export default function Destination() {
         <div>
             <Navbar />
             <div className="destination-main-img">
-                <h1 className="hero_section-title fade-in-bottom"  ><br /> <br /><br />Destinations </h1>
+                <h1 className="hero_section-title fade-in-bottom"  ><br/><br /><br />Destinations </h1>
 
             </div>
 

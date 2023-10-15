@@ -40,9 +40,9 @@ function Contact() {
     return (
         <div >
             <Navbar />
-            <div className="header_contact-main-img fade-in-bottom">
+            <div className="contact-main-img">
+                <h1 className="hero_section-title fade-in-bottom"  ><br /> <br /><br />Contact Us </h1>
 
-              <h1 className="fade-in-bottom contact-with-us">Contact With Us</h1>
             </div>
 
             <div  className="contact_heading ">
@@ -51,6 +51,8 @@ function Contact() {
                     India tour packages are perfect. Get an unforgettable
                     experience with our India tour packages.</p>
                     <p>We can help. Our Team of experts is on hand to answer your question</p>
+
+                    <hr className="destination-hr" />
                 <form>
 
                     <div className="Contact-card">
@@ -115,7 +117,7 @@ function Contact() {
                     </div>
                 </form>
 
-                <hr className="contact_hr"></hr>
+                <hr className="destination-hr" />
                 <div className="contact_detail_img">
                     <div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28025.63281765402!2d77.29205183359369!3d28.593653212133525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4fc6f55c475%3A0x82d3278fa613f5da!2sIndia%20Tour%20Services!5e0!3m2!1sen!2sin!4v1697204849941!5m2!1sen!2sin"

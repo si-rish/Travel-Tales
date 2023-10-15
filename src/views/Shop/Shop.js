@@ -44,11 +44,14 @@ export default function Shop() {
       <Navbar />
       <div className="main-img-shop">
 
-        <p className="main-img-txt">Experience the world, with our travel shopping tools....!</p>
-        <h3 className="img-sub-text">Our shopping service for traveller....<FaShoppingCart /></h3>
-        <h5 className="caption-special">If you're looking to buy something special, shop here...</h5>
+      <h1 className="hero_section-title fade-in-bottom"  > <br /><br /><br />Shopping </h1>
 
       </div>
+
+      <p className='app-desc destination-app-desc img-sub-text'>Experience the world, with our travel shopping tools....! <FaShoppingCart /></p>
+
+      <h5 className="app-desc destination-app-desc shop-desc-heading">If you're looking to buy something special, shop here...</h5>
+      <hr className="destination-hr" />
 
       <div className="shop-main-container">
      
@@ -65,7 +68,7 @@ export default function Shop() {
           <div className="button-ab">
        <button className="btn-card-Buy">Buy Now</button>
          
-            <button className="btn-card-add"onClick={Message} >Add to Card</button>
+            <button className="btn-card-add"onClick={Message} >Add to Cart</button>
          
           </div>
       </div>
@@ -80,7 +83,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add" onClick={Message}>Add to Card</button>
+            <button className="btn-card-add" onClick={Message}>Add to Cart</button>
           </div>
       </div>
       <div className="shop-product-card">
@@ -93,7 +96,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add" onClick={Message}>Add to Card</button>
+            <button className="btn-card-add" onClick={Message}>Add to Cart</button>
           </div>
       </div>
 
@@ -107,10 +110,11 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add"onClick={Message}>Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Cart</button>
           </div>
       </div>
     </div>
+    <hr className="destination-hr shop-hr" />
 <h3 className="section-pname">CLOTHES</h3>    
 <div className="shoppings-main">
         <div className="shop-product-card">
@@ -123,7 +127,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add"onClick={Message}>Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Cart</button>
           </div>
       </div>
 
@@ -137,7 +141,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add"onClick={Message}>Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Cart</button>
           </div>
       </div>
       <div className="shop-product-card">
@@ -150,7 +154,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add"onClick={Message}>Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Cart</button>
           </div>
       </div>
 
@@ -164,11 +168,11 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add" onClick={Message}>Add to Card</button>
+            <button className="btn-card-add" onClick={Message}>Add to Cart</button>
           </div>
       </div>
     </div>
-
+    <hr className="destination-hr  shop-hr" />
     <h3 className="section-pname">TRAVEL ESSENTIAL</h3>
     <div className="shoppings-main">
         <div className="shop-product-card">
@@ -181,7 +185,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add"onClick={Message}>Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Cart</button>
           </div>
       </div>
 
@@ -195,7 +199,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add"onClick={Message}>Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Cart</button>
           </div>
       </div>
       <div className="shop-product-card">
@@ -208,7 +212,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add"onClick={Message}>Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Cart</button>
           </div>
       </div>
 
@@ -222,10 +226,11 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add" onClick={Message}>Add to Card</button>
+            <button className="btn-card-add" onClick={Message}>Add to Cart</button>
           </div>
       </div>
     </div>
+    <hr className="destination-hr shop-hr" />
 <h3 className="section-pname">ELECTRONICS</h3>
 <div className="shoppings-main">
         <div className="shop-product-card">
@@ -238,7 +243,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add" onClick={Message}>Add to Card</button>
+            <button className="btn-card-add" onClick={Message}>Add to Cart</button>
           </div>
       </div>
 
@@ -252,7 +257,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add" onClick={Message}>Add to Card</button>
+            <button className="btn-card-add" onClick={Message}>Add to Cart</button>
           </div>
       </div>
       <div className="shop-product-card">
@@ -265,7 +270,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add" onClick={Message}>Add to Card</button>
+            <button className="btn-card-add" onClick={Message}>Add to Cart</button>
           </div>
       </div>
 
@@ -279,10 +284,11 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add" onClick={Message}>Add to Card</button>
+            <button className="btn-card-add" onClick={Message}>Add to Cart</button>
           </div>
       </div>
     </div>
+    <hr className="destination-hr  shop-hr" />
 
     <h3 className="section-pname">SNACKS</h3>
     <div className="shoppings-main">
@@ -296,7 +302,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add"onClick={Message}>Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Cart</button>
           </div>
       </div>
 
@@ -310,7 +316,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add"onClick={Message}>Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Cart</button>
           </div>
       </div>
       <div className="shop-product-card">
@@ -323,7 +329,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add"onClick={Message}>Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Cart</button>
           </div>
       </div>
 
@@ -337,10 +343,11 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add"onClick={Message}>Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Cart</button>
           </div>
       </div>
     </div>
+    <hr className="destination-hr  shop-hr" />
     <h3 className="section-pname">BOOKS AND GUIDES</h3>
 
     <div className="shoppings-main">
@@ -354,7 +361,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add"onClick={Message}>Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Cart</button>
           </div>
       </div>
 
@@ -368,7 +375,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add"onClick={Message}>Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Cart</button>
           </div>
       </div>
       <div className="shop-product-card">
@@ -381,7 +388,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add"onClick={Message}>Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Cart</button>
           </div>
       </div>
 
@@ -395,10 +402,12 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add"onClick={Message}>Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Cart</button>
           </div>
       </div>
     </div>
+
+    <hr className="destination-hr shop-hr" />
 
        </div>
       <Footer/>
