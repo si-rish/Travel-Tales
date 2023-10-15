@@ -3,7 +3,7 @@ import "./Blogs.css"
 import Navbar from '../../components/Navbar/Navbar'
 import showToast from 'crunchy-toast';
 import Footer from '../../components/Footer/Footer';
-import img1 from '../../components/Image/travel_HD.jpg';
+
 
 
 
@@ -12,8 +12,13 @@ export default function Blog()  {
     const[blog,setBlogs]=React.useState([
       {
         name:'Shreya Kar',
-        date:11-6-2023,
-        blog:'=>Out of Town Blog is a travel, food, and lifestyle online magazThis trave Out of Town Blog is a travel, food, and lifestyle online magazine. This travel blog started as a site where the publisher shares his personal travel experiences, photographs and travel tips to his friends, relatives, and online readers. Today, Out of Town Blog showcases travel tales, food reviews, hotel guides and reviews, travel destination guides and other travel-related inputs from various contributors from all over the world.',
+        date:11-4-2023,
+        blog:'=>Out of Town Blog is a travel, food, and lifestyle online magazThis trave Out of Town Blog is a travel, food, and lifestyle online magazine. This travel blog started as a site where the publisher shares his personal travel experiences, photographs and travel tips to his friends, relatives, and online readers. Today, Out of Town Blog showcases travel tales, food reviews, hotel guides and reviews, travel destination guides 😎 and other travel-related inputs from various contributors from all over the world.!✈️❤️',
+      },
+      {
+        name:'Kashish Dadghaye',
+        date:11-4-2024,
+        blog:'=>Out of Town Blog is a travel, food, and lifestyle online magazThis trave Out of Town Blog is a travel, food,😋 and lifestyle online magazine. This travel 🏞️ blog started as a site where the publisher shares his personal travel experiences, photographs and travel tips to his friends,✌🏽 relatives, and online readers. Today, Out of Town Blog showcases travel tales, food reviews, hotel guides and reviews, travel destination guides and other travel-related inputs from various contributors from all over the world.',
       },
      
      
@@ -83,8 +88,6 @@ export default function Blog()  {
                 <h2 className="heading3">Share Your Journey with us</h2>
                 <form>
                   <div className='name-date'>
-
-                    
                   {name}
                    <input type='text' 
                    placeholder='Prerna R. Barde' 
@@ -94,10 +97,10 @@ export default function Blog()  {
                    }}
                    value={name}
                    />
-                   
 
-                    
-                    {date}
+
+
+                  {date}
                    <input type='Date' 
                    placeholder='26/11/2023'
                    className='user-input-date'
@@ -106,10 +109,15 @@ export default function Blog()  {
                    }}
                    value={date}
                    />
+
+                   </div>
+
+                    
+                   
                   
 
 
-                   </div>
+                   
 
 
                    {message}
