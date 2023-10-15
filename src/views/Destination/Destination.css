@@ -22,6 +22,10 @@
     margin: 50px auto 0px;
 }
 
+.image-gall{
+    margin: 30px auto 10px;
+}
+
 /* .poster{
     width: 100%;
     height: 500px;
@@ -109,7 +113,7 @@
 
 /* Styles for the search button */
 .search-button {
-    background-color: #007BFF;
+    background-color: #2d2322;
     color: #fff;
     border: none;
     border-radius: 25px;
@@ -122,7 +126,9 @@
 
 /* Hover effect for the search button */
 .search-button:hover {
-    background-color: #0056b3;
+    color: rgb(240, 173, 48);
+    transition: all.3s ease;
+    background-color: black;
 }
 
 
