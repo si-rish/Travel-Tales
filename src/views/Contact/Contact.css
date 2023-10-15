@@ -76,7 +76,7 @@ body {
     background-color: rgb(253, 253, 249);
     box-shadow: 3px 5px 9px 3px #ddd;
     margin: 20px auto;
-    height: 600px;
+    height: 650px;
     width: 800px;
     padding: 22px;
     margin-top: 50px;
@@ -133,8 +133,8 @@ body {
 .submit-btn {
     height: 38px;
     width: 110px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+   
+    padding:2px 3px;
     font-size: 25px;
     border: none;
     background-color: rgb(29, 185, 237);
@@ -177,7 +177,7 @@ body {
 .contact-details-info h1::after {
     content: " ";
     position: absolute;
-    margin-bottom: -820px;
+    margin-bottom: -865px;
     margin-left: 825px;
     left: 20px;
     bottom: 0;
@@ -191,6 +191,8 @@ body {
     margin-bottom: 20px;
     border-radius: 12px;
     box-shadow: 9px 9px 9px #ddd;
+    width:600px;
+    height:400px
 }
 
 .contact-details-info {
@@ -217,4 +219,71 @@ body {
 .contact-details-info p {
     font-size: 25px;
     font-family: "poppins, sans-serif;";
+}
+@media(max-width:780px){
+    .Contact-card{
+    background-color: rgb(253, 253, 249);
+    box-shadow: 3px 5px 9px 3px #ddd;
+    height: auto;
+    width: auto;
+    margin-left: 50px;
+}
+.submit-btn {
+    height: auto;
+    width: auto;
+    padding:auto;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(29, 185, 237);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-left:180px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 9px;}
+    .contact-with-us::after {
+        content: " ";
+        position: absolute;
+        margin-bottom: 0px;
+        margin-left: 125px;
+        left: 20px;
+        bottom: 0;
+        border: 3px solid salmon;
+        width: 40%;
+    }
+    .contact_heading h1::after {
+        content: " ";
+        position: absolute;
+        margin-bottom: -40px;
+        margin-left: 120px;
+        left: 20px;
+        bottom: 0;
+        border: 3px solid salmon;
+        width: 40%;}
+        .contact_hr {
+            color: black;
+            width: 250px;
+            margin-top: 50px;
+            margin-left: 180px;
+            height: 7px;
+            background-color: black;
+        
+        }.contact_map {
+            margin-top: -200px;
+            margin-left: 20px;
+            margin-bottom: -300px;
+            border-radius: 12px;
+            box-shadow: 9px 9px 9px #ddd;
+            width:200px;
+            height:200px
+        }
+        .contact_detail_img {
+            display: flex;
+            flex-direction: row;
+            width: -5px;
+            height: 10px;
+        }
+       
+        
 }
