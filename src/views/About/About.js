@@ -20,7 +20,7 @@ export default function About()  {
             <img src={img} className="image-2" />
 
             <div className="About-Container">
-             <h1 className="heading">Our History</h1>
+             <h1 className="heading description">Our History</h1>
 
             <p  className="About-Text">
                 Trippy is Owned and managed by Trippy in Pvt.Ltd, a leading brand in web designing
@@ -32,7 +32,7 @@ export default function About()  {
                   cities such as Pompeii and Baiae.
             </p>
             
-            <h1 className="heading">Our Mission</h1>
+            <h1 className=" description heading">Our Mission</h1>
             <p className="About-Text">
                 Our Mission is to touch the horizon where our capabiities may successfully meet with
                 the requirements of our client's, that too with ultimate transparency and cost-
@@ -42,7 +42,7 @@ export default function About()  {
                  we aim to earn the reputation as "Your Preferred Travel Agency".
             </p>
 
-            <h1 className="heading">Our Vission</h1>
+            <h1 className=" description heading">Our Vission</h1>
             <p className="About-Text">
                 To saw the seeds of par-excellence services with customer centric approach and reap the
                 trust of worldwide client's.<br></br>
@@ -52,7 +52,7 @@ export default function About()  {
             </div>
            
 
-            <h1 className="heading">Our Team's</h1>
+            <h1 className=" description heading">Our Team's</h1>
             <div className="about-main-container">
                 <div className="cards">
                 <img src={image1} className="image team-member-img"/>

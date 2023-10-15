@@ -53,7 +53,8 @@ const router = createBrowserRouter([
   {
     path: 'wishcard',
     element : <Wishcard/>
-  }
+  },
+  
  
 ])
 
