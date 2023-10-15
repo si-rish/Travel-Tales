@@ -168,10 +168,13 @@
 }
 
 .hide{
-    text-align: center;
-    font-family: fantasy;
+    text-align:center;
+    font-family:'poppins',sans-serif;
     margin-top: 20px;
     margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 200;
+
 }
 .hide1{
     text-align: center;

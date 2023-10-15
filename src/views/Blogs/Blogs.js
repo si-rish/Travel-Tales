@@ -66,8 +66,12 @@ export default function Blog()  {
             
            
 
-             <h3 className='hide'>Short description about blogs that you can create and read !</h3>
-              <h2 className='hide1'>- refer chatgpt</h2>
+             <p className='hide'>A blog is a digital platform where individuals or organizations share written
+             content, often in the form of articles, posts , essays . It serves as a space for sharing information
+             , options, experiences, and expertise on a wide range of topics, catering to various interests and audiences.
+             Blogs can be personal diaries, educational resources, marketing tools, or sources of entertainment, making them a 
+             versatile medium for online communication. </p>
+              
               
               < hr className='hr'>
                 </hr>
