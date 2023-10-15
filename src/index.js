@@ -12,7 +12,6 @@ import Login from './views/Login/Login';
 import Signup from './views/Signup/Signup';
 import Wishcard from './views/Wishcard/Wishcard';
 
-
 const router = createBrowserRouter([
   {
       path: '/',
@@ -49,7 +48,8 @@ const router = createBrowserRouter([
   {
     path: 'wishcard',
     element : <Wishcard/>
-  }
+  },
+  
  
 ])
 

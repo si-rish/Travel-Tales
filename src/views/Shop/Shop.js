@@ -28,12 +28,18 @@ import ess3 from './Shop images/ess3.1.jpg'
 import ess4 from './Shop images/ess4.jpg'
 import { FaShoppingCart } from 'react-icons/fa'
 import { AiFillStar } from 'react-icons/ai'
+import showToast from 'crunchy-toast';
 import Footer from '../../components/Footer/Footer'
-export default function Shop() {
-  
-  
 
-  return (
+export default function Shop() {
+  function Message(){
+    return(
+   showToast('Product Added Successfully','success',5000)
+ 
+    )
+  }
+  
+   return (
     <div >
       <Navbar />
       <div className="main-img-shop">
@@ -57,9 +63,9 @@ export default function Shop() {
             <h5 className="off-text">(25% off)</h5>
           </div>
           <div className="button-ab">
-       <button className="btn-card-Buy"> Buy Now</button>
+       <button className="btn-card-Buy">Buy Now</button>
          
-            <button className="btn-card-add" >Add to Card</button>
+            <button className="btn-card-add"onClick={Message} >Add to Card</button>
          
           </div>
       </div>
@@ -74,7 +80,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add" onClick={Message}>Add to Card</button>
           </div>
       </div>
       <div className="shop-product-card">
@@ -87,7 +93,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add" onClick={Message}>Add to Card</button>
           </div>
       </div>
 
@@ -101,7 +107,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Card</button>
           </div>
       </div>
     </div>
@@ -117,7 +123,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Card</button>
           </div>
       </div>
 
@@ -131,7 +137,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Card</button>
           </div>
       </div>
       <div className="shop-product-card">
@@ -144,7 +150,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Card</button>
           </div>
       </div>
 
@@ -158,7 +164,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add" onClick={Message}>Add to Card</button>
           </div>
       </div>
     </div>
@@ -175,7 +181,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Card</button>
           </div>
       </div>
 
@@ -189,7 +195,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Card</button>
           </div>
       </div>
       <div className="shop-product-card">
@@ -202,7 +208,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Card</button>
           </div>
       </div>
 
@@ -216,7 +222,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add" onClick={Message}>Add to Card</button>
           </div>
       </div>
     </div>
@@ -232,7 +238,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add" onClick={Message}>Add to Card</button>
           </div>
       </div>
 
@@ -246,7 +252,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add" onClick={Message}>Add to Card</button>
           </div>
       </div>
       <div className="shop-product-card">
@@ -259,7 +265,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add" onClick={Message}>Add to Card</button>
           </div>
       </div>
 
@@ -273,7 +279,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add" onClick={Message}>Add to Card</button>
           </div>
       </div>
     </div>
@@ -290,7 +296,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Card</button>
           </div>
       </div>
 
@@ -304,7 +310,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Card</button>
           </div>
       </div>
       <div className="shop-product-card">
@@ -317,7 +323,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Card</button>
           </div>
       </div>
 
@@ -331,7 +337,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Card</button>
           </div>
       </div>
     </div>
@@ -348,7 +354,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Card</button>
           </div>
       </div>
 
@@ -362,7 +368,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Card</button>
           </div>
       </div>
       <div className="shop-product-card">
@@ -375,7 +381,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Card</button>
           </div>
       </div>
 
@@ -389,7 +395,7 @@ export default function Shop() {
           </div>
           <div className="button-ab">
             <button className="btn-card-Buy">Buy Now</button>
-            <button className="btn-card-add">Add to Card</button>
+            <button className="btn-card-add"onClick={Message}>Add to Card</button>
           </div>
       </div>
     </div>
