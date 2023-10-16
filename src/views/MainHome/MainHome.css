@@ -1,5 +1,5 @@
 .backgroundimage{
-    background:url(./../../../public/assets/incredible\ india.jpg);
+    background:url(./../../../public/assets/incredibleindia.jpg);
  background-repeat: no-repeat;
     margin: 0px;
     flex-wrap: wrap;
@@ -33,17 +33,17 @@
    font-size: 50px;
    font-weight: bold;
   }
- .benefits{
-    background-image: url(./../../../public/assets/benefits\ of\ travel.webp);
- background-repeat: no-repeat;
+  .benefits{
+   background-image: url(./../../../public/assets/benefits\ of\ travel.webp);
+background-repeat: no-repeat;
+ 
+   flex-wrap: wrap;
+   height: 60vh;
+   background-size:contain;
+  display: flex;
+   background-position: center;
   
-    flex-wrap: wrap;
-    height: 60vh;
-    background-size:contain;
-   display: flex;
-    background-position: center;
-   
- }
+}
   
  @media (max-width: 768px) {
     .middle {
