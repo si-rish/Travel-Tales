@@ -10,12 +10,41 @@ function MainHome(){
     const signing=() =>{
    navigate('/signup')}
  
+
+   const explore=() =>{
+    navigate('/destination')
+   }
     return(
 
       
     <>
-    <div className="backgroundimage">
-      <button onClick={signing} className="middle btn btn-warning   btn-lg btn-block" >Sign up</button></div>
+
+
+      
+
+
+
+
+  <div className="backgroundimage">
+  <iframe width="100%"
+   height="750px" 
+   src="https://www.youtube.com/embed/5BPz0rtKVco?si=5aqthjQlCwPgBnEm" 
+   title="YouTube video player" 
+   frameborder="0" 
+   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+
+    <br/>
+    <iframe width="100%" height="750px" 
+    src="https://www.youtube.com/embed/_KCzjzyrbyQ?si=uH14nqdgd6yI9_pD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen></iframe>
+ </div><br/><br/>
+ <h1>FOR MORE</h1>
+ <div className="middle">
+      <button onClick={signing} className="s btn btn-warning   btn-lg btn-block" >Sign up</button>
+   
+      <button onClick={explore} className="e btn btn-warning   btn-lg btn-block" >Explore</button>
+   </div>
 
 
 <div className="mt-5 mx-5  mb-4 " >
