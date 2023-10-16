@@ -19,7 +19,7 @@ function Navbar() {
         <Link className='nav-link' to="/contact">Contact</Link>
         <Link className='nav-link' to="/shop">Shop</Link>
         <Link className='nav-link'to="/Wishcard">Wishlist</Link> */}
-        <Link className='nav-link' to="/Home" ><FontAwesomeIcon icon={faHome} className='nav-icons' /> Home</Link>
+        <Link className='nav-link' to="/" ><FontAwesomeIcon icon={faHome} className='nav-icons' /> Home</Link>
         <Link className='nav-link' to="/destination"><FontAwesomeIcon icon={faLocationDot} className='nav-icons' /> Destinations</Link>
         <Link className='nav-link' to="/blogs"><FontAwesomeIcon icon={faNewspaper} className='nav-icons' /> Blogs</Link>
         <Link className='nav-link' to="/about"><FontAwesomeIcon icon={faUserGroup} className='nav-icons' /> About</Link>

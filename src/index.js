@@ -14,12 +14,12 @@ import Wishcard from './views/Wishcard/Wishcard';
 import MainHome from './views/MainHome/MainHome';
 
 const router = createBrowserRouter([
-    {
-        path: '/',
-        element: <MainHome/>
-    },
+    // {
+    //     path: '/',
+    //     element: <MainHome/>
+    // },
   {
-      path: '/home',
+      path: '/',
       element: <Home/>
   },
   {
