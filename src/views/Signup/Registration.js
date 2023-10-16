@@ -37,6 +37,10 @@ import showToast from 'crunchy-toast';
       return false;
     }
 
+    if (!phone) {
+      showToast('Enter Contact no.', 'warning', 3000);
+      return false;
+    }
     if (!password) {
       showToast('Enter Password', 'warning', 3000);
       return false;

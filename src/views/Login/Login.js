@@ -34,7 +34,7 @@ function Login() {
       showToast(`Welcome Back ${matchingUser.name}`, 'success', 3000);
       localStorage.setItem('loginData',JSON.stringify(matchingUser));
     
-      navigate('/')
+      navigate('/home')
     } else {
       showToast('Invalid Email ID and Password', 'warning', 3000);
     }
