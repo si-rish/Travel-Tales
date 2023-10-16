@@ -113,7 +113,7 @@ function Wishcard (){
     return(
         <div className="app-container" >
           <Navbar/>
-            <h1 className="app-title">Add Your Dream Place...✈</h1>
+            <h1 className="app-title ">Add Your Dream Place...✈</h1>
             <div className="app-body">
                 <div className="Whish-container">
                   <h2 className="sub-heading">Show Dream Places</h2>
@@ -165,6 +165,7 @@ function Wishcard (){
                   </form>
                 </div>
             </div>
+            
        </div>
     )
 }
