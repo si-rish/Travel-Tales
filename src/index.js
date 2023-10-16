@@ -11,7 +11,7 @@ import Shop from './views/Shop/Shop';
 import Login from './views/Login/Login';
 import Signup from './views/Signup/Signup';
 import Wishcard from './views/Wishcard/Wishcard';
-import MainHome from './views/MainHome/MainHome';
+//import MainHome from './views/MainHome/MainHome';
 
 const router = createBrowserRouter([
     // {
