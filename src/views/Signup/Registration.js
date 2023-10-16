@@ -164,7 +164,7 @@ import showToast from 'crunchy-toast';
 
 
 
-        <p className="forgot-password " onClick={handleClick}>Already Registered{" "}Login in</p>
+        <p className="forgot-password " onClick={handleClick}>Already Registered ? Login in</p>
 
 
      
