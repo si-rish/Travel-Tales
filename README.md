@@ -14,7 +14,7 @@ Welcome to **Travel Tales**, your one-stop destination for sharing and exploring
 ### Demo Screeshots
 </div>
 
-![Travel Tales Desktop Demo](../Travel-Tales/public/assets/readme-img.png "Desktop Demo")
+![Travel Tales Desktop Demo](readme-img.png "Desktop Demo")
 
 
 ## Features
