@@ -39,7 +39,7 @@ function Wishcard (){
       const newDream=[...Dream,obj];
       setDream(newDream);
       saveToLocalStorage(newDream);
-      showToast('Dream Added Succesfully !','success',3000);
+      showToast('Dream Added Succesfully !','success',5000);
 
       setPlace('');
       setDate('');
@@ -61,7 +61,7 @@ function Wishcard (){
       saveToLocalStorage(Dream);
 
       setDream([...Dream]);
-      showToast('Dream deleted Succesfully','success',3000);
+      showToast('Dream deleted Succesfully','success',5000);
     }
 
     const saveToLocalStorage =(DreamData)=>{
@@ -113,7 +113,7 @@ function Wishcard (){
     return(
         <div className="app-container" >
           <Navbar/>
-            <h1 className="app-title">Add Your Dream Place...✈</h1>
+            <h1 className="app-title ">Add Your Dream Place...✈</h1>
             <div className="app-body">
                 <div className="Whish-container">
                   <h2 className="sub-heading">Show Dream Places</h2>
@@ -165,6 +165,7 @@ function Wishcard (){
                   </form>
                 </div>
             </div>
+            
        </div>
     )
 }

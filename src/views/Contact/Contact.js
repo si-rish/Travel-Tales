@@ -28,7 +28,7 @@ function Contact() {
 
         setContacts([...contacts, obj]);
 
-        showToast('Message Sent Successfully', 'success', 5000);
+        showToast('Message Sent Successfully', 'success', 7000);
 
         setName('');
         setMobile('');
