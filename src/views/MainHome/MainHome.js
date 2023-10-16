@@ -19,15 +19,9 @@ function MainHome(){
       
     <>
 
-
-      
-
-
-
-
   <div className="backgroundimage">
 
-    <iframe width="100%" height="500px" 
+    <iframe width="100%" height="750px" 
     src="https://www.youtube.com/embed/_KCzjzyrbyQ?si=uH14nqdgd6yI9_pD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
     allowfullscreen></iframe>
  </div><br/><br/>
