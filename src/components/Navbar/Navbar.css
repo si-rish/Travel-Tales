@@ -5,18 +5,20 @@
   color:white;  
 }
 
+.nav-logo{
+  height: 30px;
+  margin-right: 5px;
+}
+
 .tales-logo{
-  background-color: rgb(243, 189, 25);
-  color: #161F30;
-  border-radius: 19px;
-  padding: 2px 6px;
-  font-weight: 700;
+  color: rgb(237, 180, 74);
+
 }
 
 .nav-brand{
   display: inline-block;
   color: aliceblue;
-  margin-right: 20vw;
+  margin-right: 18vw;
   margin-left: 15px;
   font-weight: 900;
     font-size: 1.5rem;
@@ -54,7 +56,7 @@
   font-weight: 400;
   line-height: 1;
   padding: 8px 15px;
-  margin: 0px 14px 0px 8px ;
+  margin: 0px 15px 0px 8px ;
   text-align: center;
   text-decoration: none #0d172a solid;
   transition: all ease-out 0.3s;

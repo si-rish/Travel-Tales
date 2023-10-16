@@ -3,13 +3,14 @@ import React from 'react'
 import "./Navbar.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faPlaneDeparture, faLocationDot, faNewspaper, faShoppingBag, faLayerGroup, faUserGroup, faAddressBook, faCartShopping, faHeart, faRightToBracket } from '@fortawesome/free-solid-svg-icons'
+import logo from '../Image/logo.png'
 
 
 function Navbar() {
   return (
     <div className='navbar'>
       
-        <h2 className='nav-brand'>TRAVEL<span className='tales-logo'>TALES</span></h2>
+        <h2 className='nav-brand'><img src={logo} className='nav-logo'/>TRAVEL<span className='tales-logo'>TALES</span></h2>
 
 {/* 
         <Link className='nav-link' to="/Home" >Home</Link>
