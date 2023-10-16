@@ -1,5 +1,8 @@
 <div align="center" >
 
+![Logo](readme-logo.png )
+
+
  # Travel-Tales 
 
   Travel Tales is  built using HTML, CSS, and JavaScript.
