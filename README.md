@@ -107,6 +107,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Feedback
 
-If you have any feedback, please reach out to us at fake@fake.com
+If you have any feedback, please reach out to us at traveltales@support.com
 
 

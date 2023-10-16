@@ -138,3 +138,26 @@
     
 }
 
+.weather-api{
+    text-align: center;
+  
+    
+}
+
+.api-section{
+    background-color: #2d2322e6;
+    color: white !important;
+    width: 50%;
+    display: block;
+   margin: 0px auto;
+   padding: 1.5rem;
+   border-radius: 19px;
+
+}
+
+.here-api-link{
+    text-decoration: none !important;
+    cursor: pointer;
+    color: rgb(255, 174, 0);
+
+}

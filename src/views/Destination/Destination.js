@@ -48,6 +48,16 @@ export default function Destination() {
 
             <hr className="destination-hr" />
 
+            <div className="api-section">
+
+            <h2 className="weather-api">🌤️ Know your City Weather <a href="https://se-weather.netlify.app/" className="here-api-link" target="_blank">HERE</a> </h2>
+            </div>
+            <p className="caption destination-caption image-gall">
+            "Experience real-time weather updates at your fingertips with our user-friendly weather application. Stay prepared with accurate forecasts and weather insights."
+            </p>
+            <hr className="destination-hr" />
+
+
             <CardSection />
             <Footer />
         </div>

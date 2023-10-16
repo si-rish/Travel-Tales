@@ -39,7 +39,7 @@ function Wishcard (){
       const newDream=[...Dream,obj];
       setDream(newDream);
       saveToLocalStorage(newDream);
-      showToast('Dream Added Succesfully !','success',3000);
+      showToast('Dream Added Succesfully !','success',5000);
 
       setPlace('');
       setDate('');
@@ -61,7 +61,7 @@ function Wishcard (){
       saveToLocalStorage(Dream);
 
       setDream([...Dream]);
-      showToast('Dream deleted Succesfully','success',3000);
+      showToast('Dream deleted Succesfully','success',5000);
     }
 
     const saveToLocalStorage =(DreamData)=>{
