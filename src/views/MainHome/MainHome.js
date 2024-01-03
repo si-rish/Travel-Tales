@@ -34,7 +34,7 @@ function MainHome() {
 
          <div className="youtube-thumbnail">
 
-            <iframe width="65%" height="600px"
+            <iframe width="80%" height="600px"
                src="https://www.youtube.com/embed/_KCzjzyrbyQ?si=uH14nqdgd6yI9_pD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                allowfullscreen></iframe>
          </div><br /><br />
