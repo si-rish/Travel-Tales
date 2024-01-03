@@ -1,14 +1,37 @@
-/*.backgroundimage{
-  
- background-repeat: no-repeat;
-    margin: 0px;
-    flex-wrap: wrap;
-    height: 100vh;
-    background-size:contain;
+.main-page-headline{
+   margin: 50px auto;
+}
+
+.headline-hr{
+   margin: 50px auto;
+   width: 50%;
    
-    background-position: center;
-    background-color: blanchedalmond;
-  }*/
+}
+
+.main-page-headline-caption{
+  text-align: center;
+  font-weight: 200;
+  font-size: 25px;
+  margin-top: 8px;
+}
+
+.follow-more{
+   text-align: center;
+   font-size: 25px;
+   margin-top: 8px;
+}
+
+.color-orange{
+   color: orange;
+}
+
+
+.youtube-thumbnail{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
   .middle{
 
     text-align: center;
@@ -21,16 +44,15 @@
  color: azure;
   }
   .s{
-   margin-right: 20px;
+   margin-right: 10px;
+   border: none;
   }
   .s:hover{
-    background-color: rgb(0, 255, 89);
-    color:black;
+    background-color:green;
+    color:white;
+    transition: all ease .3s;
   }
-  .e:hover{
-   background-color: rgb(0, 255, 89);
-   color:black;
- }
+
   h1{
    text-align: center;
    font-size: 50px;
